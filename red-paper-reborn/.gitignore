@@ -1,0 +1,14 @@
+node_modules
+dist
+.DS_Store
+.env
+
+# Ignore the output video from Git but not videos you import into src/.
+/out/*
+!/out/Act01Demo.mp4
+!/out/storyboard.jpg
+!/out/verification.json
+!/out/README.md
+!/out/keyframes/
+/out/keyframes/scene03-end.png
+/public/assets/fonts/fangsong.ttf

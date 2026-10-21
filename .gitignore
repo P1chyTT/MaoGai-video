@@ -1,0 +1,81 @@
+# Dependencies and package-manager caches
+node_modules/
+.pnpm-store/
+.npm/
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# Caches and generated compiler data
+.cache/
+.remotion/
+.parcel-cache/
+.turbo/
+.rspack-cache/
+__pycache__/
+*.py[cod]
+*.tsbuildinfo
+coverage/
+.nyc_output/
+
+# Generated Remotion bundles, renders, and local previews
+# Keep imported videos, PNGs, SVGs, fonts, and audio under src/ and public/.
+/red-paper-reborn/out/*
+!/red-paper-reborn/out/Act01Demo.mp4
+!/red-paper-reborn/out/storyboard.jpg
+!/red-paper-reborn/out/verification.json
+!/red-paper-reborn/out/README.md
+!/red-paper-reborn/out/keyframes/
+/red-paper-reborn/out/keyframes/scene03-end.png
+/red-paper-reborn/dist/
+/red-paper-reborn/build/
+/red-paper-reborn/.remotion-cache/
+
+# Local environment and credentials; keep shareable example files
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+.npmrc
+.pypirc
+credentials.json
+service-account*.json
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+id_rsa
+id_rsa.*
+id_ed25519
+id_ed25519.*
+.ssh/
+.secrets/
+
+# Logs, temporary files, and editor/OS state
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+*.bak
+*.orig
+*.pid
+*.pid.lock
+/tmp/
+/temp/
+/red-paper-reborn/tmp/
+/red-paper-reborn/temp/
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+
+# Local delivery archive and optional system font
+/delivery/
+/red-paper-reborn/public/assets/fonts/fangsong.ttf

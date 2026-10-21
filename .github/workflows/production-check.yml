@@ -1,0 +1,66 @@
+name: Production checks
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      render:
+        description: Render the 36-second demo and keyframes
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+jobs:
+  code-check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    defaults:
+      run:
+        working-directory: red-paper-reborn
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 11.25.0
+          package_json_file: red-paper-reborn/package.json
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+          cache-dependency-path: red-paper-reborn/pnpm-lock.yaml
+      - run: pnpm install --frozen-lockfile --config.node-linker=hoisted
+      - run: pnpm run lint
+      - run: pnpm run check:portable
+
+  render-demo:
+    if: github.event_name == 'workflow_dispatch' && inputs.render
+    needs: code-check
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    defaults:
+      run:
+        working-directory: red-paper-reborn
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 11.25.0
+          package_json_file: red-paper-reborn/package.json
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+          cache-dependency-path: red-paper-reborn/pnpm-lock.yaml
+      - run: pnpm install --frozen-lockfile --config.node-linker=hoisted
+      - run: pnpm run keyframes
+      - run: pnpm run render
+      - uses: actions/upload-artifact@v4
+        with:
+          name: act01-demo-and-keyframes
+          path: |
+            red-paper-reborn/out/Act01Demo.mp4
+            red-paper-reborn/out/keyframes/*.png
+          retention-days: 14

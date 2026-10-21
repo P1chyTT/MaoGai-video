@@ -1,0 +1,18 @@
+import {bundle} from '@remotion/bundler';
+import {openBrowser,selectComposition,renderStill} from '@remotion/renderer';
+import path from 'node:path';
+import fs from 'node:fs/promises';
+
+const root=path.resolve(import.meta.dirname,'..');
+process.chdir(root);
+const serveUrl=await bundle({entryPoint:path.join(root,'src/index.ts'),outDir:path.join(root,'out/portable-check-bundle'),rspack:true});
+// Only remove the optional font from this throwaway bundle, never from source assets.
+const copiedFont=path.join(serveUrl,'public/assets/fonts/fangsong.ttf');
+await fs.rm(copiedFont,{force:true});
+const browser=await openBrowser('chrome');
+try {
+  const composition=await selectComposition({serveUrl,id:'Act01Demo',puppeteerInstance:browser,port:3102});
+  if(composition.durationInFrames!==1080||composition.fps!==30||composition.width!==1920||composition.height!==1080) throw new Error('Composition metadata changed');
+  await renderStill({serveUrl,composition,frame:465,output:path.join(root,'out/portable-font-check.png'),imageFormat:'png',puppeteerInstance:browser,port:3102});
+  console.log('Portable render passed: Scene02 frame 465, using the distributed Source Han Serif font.');
+} finally {await browser.close({silent:true});}
