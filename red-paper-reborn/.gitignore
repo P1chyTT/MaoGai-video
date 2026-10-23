@@ -8,6 +8,16 @@ dist
 !/out/Act01Demo.mp4
 !/out/Act02Demo.mp4
 !/out/Act02Demo-Motion.mp4
+!/out/Act03Demo.mp4
+!/out/act03/
+/out/act03/*
+!/out/act03/keyframes/
+!/out/act03/storyboard.jpg
+!/out/act03/motion-details.jpg
+!/out/act03/verification.json
+!/out/act03/README.md
+!/out/act03/Act01Demo-regression.png
+!/out/act03/Act02Demo-regression.png
 !/out/act02/
 /out/act02/*
 !/out/act02/keyframes/

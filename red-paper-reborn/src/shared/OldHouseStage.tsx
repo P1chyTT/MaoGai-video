@@ -9,7 +9,7 @@ export const WoodLines:React.FC<{detail?:boolean}> = ({detail=false}) => <g fill
   {Array.from({length:24},(_,i)=><path key={i} d={`M${detail?180:540} ${detail?195+i*27:744+i*2} Q${700+i*19} ${detail?170+i*27:753+i*2} ${detail?1730:1650} ${detail?200+i*27:745+i*2}`}/>)}
 </g>;
 
-export const OldHouseStage:React.FC<{frame:number;grandmaFrame?:number;puppetFrame?:number;toolFrame?:number;puppetHeadAngle?:number;puppetBodyAngle?:number;scale?:number;shiftX?:number;shiftY?:number;intro?:boolean;detail?:boolean;children?:React.ReactNode}> = ({frame,grandmaFrame,puppetFrame=grandmaFrame,toolFrame=grandmaFrame,puppetHeadAngle,puppetBodyAngle,scale=1,shiftX=0,shiftY=0,intro=false,detail=false,children}) => {
+export const OldHouseStage:React.FC<{frame:number;grandmaFrame?:number;puppetFrame?:number;toolFrame?:number;puppetHeadAngle?:number;puppetBodyAngle?:number;puppetForearmAngle?:number;scale?:number;shiftX?:number;shiftY?:number;intro?:boolean;detail?:boolean;heldTools?:boolean;restingScissors?:boolean;tablePaper?:boolean;behindTable?:React.ReactNode;children?:React.ReactNode}> = ({frame,grandmaFrame,puppetFrame=grandmaFrame,toolFrame=grandmaFrame,puppetHeadAngle,puppetBodyAngle,puppetForearmAngle,scale=1,shiftX=0,shiftY=0,intro=false,detail=false,heldTools=true,restingScissors=true,tablePaper=true,behindTable,children}) => {
   const prefix=useId().replace(/:/g,'');
   const id=(s:string)=>`${prefix}-${s}`;
   const url=(s:string)=>`url(#${id(s)})`;
@@ -57,7 +57,8 @@ export const OldHouseStage:React.FC<{frame:number;grandmaFrame?:number;puppetFra
         {/* A chair and control rods make the flat silhouette read as a seated puppet. */}
         {grandmaFrame!==undefined?<g fill="none" stroke={colors.wood}><path d="M615 783V512Q650 475 686 512V797M628 525H672M638 536V773M661 536V773" strokeWidth="9"/><path d="M626 810L611 960M686 810L699 956" strokeWidth="12"/></g>:null}
       </svg>
-      {grandmaFrame!==undefined?<PuppetCharacter frame={puppetFrame??grandmaFrame} headAngle={puppetHeadAngle} bodyAngle={puppetBodyAngle}/>:null}
+      {grandmaFrame!==undefined?<PuppetCharacter frame={puppetFrame??grandmaFrame} headAngle={puppetHeadAngle} bodyAngle={puppetBodyAngle} forearmAngle={puppetForearmAngle}/>:null}
+      {behindTable}
       <svg width="1920" height="1080" viewBox="0 0 1920 1080" style={{position:'absolute',inset:0}}>
         <g style={{filter:'drop-shadow(0px 8px 5px rgba(45,30,27,.16))'}}>
           <path d="M565 785L545 978H584L609 797M1568 791L1592 978H1629L1612 783" fill={colors.wood} stroke={colors.ink} strokeWidth="4"/>
@@ -68,16 +69,16 @@ export const OldHouseStage:React.FC<{frame:number;grandmaFrame?:number;puppetFra
           <WoodLines/>
           <path d="M504 793H1681V807H504Z" fill="#513827" stroke={colors.ink} strokeWidth="3"/><path d="M515 797H1669" stroke="#bc9156" strokeWidth="2"/>
         </g>
-        <g transform="translate(1172 751) rotate(-4)">
+        {tablePaper?<g transform="translate(1172 751) rotate(-4)">
           <path d="M-185-24H137L169 24H-206Z" fill="#4f2c22" opacity=".24" transform="translate(3 5)"/>
           <path d={`M-185-24H137L169 ${24-curl}Q133 ${14-curl} 105 24H-206Z`} fill={colors.red} stroke="#7e2426" strokeWidth="2"/>
           <path d={`M105 24Q132 ${12-curl} 169 ${24-curl}L152 5Z`} fill="#c34c40" opacity={intro?.8:0}/>
           <path d="M-177-15H127M-174-11H65" stroke="#da7660" strokeWidth=".8" opacity=".38"/>
-        </g>
-        <ScissorAnimation frame={0} rest x={1406} y={755} scale={.68}/>
+        </g>:null}
+        {restingScissors?<ScissorAnimation frame={0} rest x={1406} y={755} scale={.68}/>:null}
         <g transform="translate(1539 714)"><ellipse cx="0" cy="32" rx="36" ry="7" fill={colors.ink} opacity=".2"/><path d="M-25 0h50l-5 32h-40Z" fill="#d4c39a" stroke={colors.wood} strokeWidth="2"/><path d="M25 5q27-3 16 16H23" fill="none" stroke={colors.wood} strokeWidth="4"/><ellipse rx="25" ry="6" fill="#6b4933" stroke={colors.wood} strokeWidth="2"/><path d="M-17 11h34M-15 25h30" stroke={colors.jade} strokeWidth="3" opacity=".55"/></g>
         {[[1017,774],[1361,777],[1080,736],[1319,740],[1260,779]].map(([x,y],i)=><path key={i} d={`M${x} ${y}l${7+i*2} -3l-3 6Z`} fill={colors.red} opacity=".85"/>)}
-        {grandmaFrame!==undefined?<g transform={`translate(1047 ${666+Math.sin(grandmaFrame/35)*1.2})`}>
+        {grandmaFrame!==undefined&&heldTools?<g transform={`translate(1047 ${666+Math.sin(grandmaFrame/35)*1.2})`}>
           <path d="M-42-12L65-3L86 45L-22 37Z" fill={colors.red} stroke="#772626" strokeWidth="2"/>
           <path d="M-34-6L55 2M-29 0L38 5" stroke="#d16851" opacity=".5"/>
           <ScissorAnimation frame={toolFrame??grandmaFrame} scale={.49}/><path d="M-37 18L-75 288" stroke="#6c5538" strokeWidth="2" opacity=".58"/>

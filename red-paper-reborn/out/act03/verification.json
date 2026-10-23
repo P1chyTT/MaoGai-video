@@ -1,0 +1,172 @@
+{
+  "status": "passed",
+  "video": "out/Act03Demo.mp4",
+  "video_sha256": "a7fc62261616f45193428c29a2bc7337c6c597696961a3a62a85c792fb8e5072",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "nominal_frame_rate": "30/1",
+  "average_frame_rate": "30/1",
+  "duration_seconds": 60.0,
+  "frames": 1800,
+  "decoded_frames": 1800,
+  "codec": "h264",
+  "pixel_format": "yuv420p",
+  "audio_streams": 0,
+  "bytes": 18987312,
+  "frame_mean_luma_range": [
+    132.04774305555554,
+    171.38064236111111
+  ],
+  "black_frame_threshold_luma": 8,
+  "white_frame_threshold_luma": 247,
+  "black_frames": [],
+  "white_frames": [],
+  "black_or_white_frames": false,
+  "dialogue_matches_request": true,
+  "caption_checks": {
+    "scene08": {
+      "frames": 270,
+      "duration_ms": 9000.0,
+      "segments": 2,
+      "last_end_ms": 8500,
+      "dialogue_matches_request": true,
+      "times_in_range_and_nonoverlapping": true
+    },
+    "scene09": {
+      "frames": 450,
+      "duration_ms": 15000.0,
+      "segments": 3,
+      "last_end_ms": 14600,
+      "dialogue_matches_request": true,
+      "times_in_range_and_nonoverlapping": true
+    },
+    "scene10": {
+      "frames": 360,
+      "duration_ms": 12000.0,
+      "segments": 3,
+      "last_end_ms": 11700,
+      "dialogue_matches_request": true,
+      "times_in_range_and_nonoverlapping": true
+    },
+    "scene11": {
+      "frames": 300,
+      "duration_ms": 10000.0,
+      "segments": 2,
+      "last_end_ms": 8100,
+      "dialogue_matches_request": true,
+      "times_in_range_and_nonoverlapping": true
+    },
+    "scene12": {
+      "frames": 420,
+      "duration_ms": 14000.0,
+      "segments": 3,
+      "last_end_ms": 13800,
+      "dialogue_matches_request": true,
+      "times_in_range_and_nonoverlapping": true
+    }
+  },
+  "original_character_hashes_match": true,
+  "character_sha256": {
+    "grandma": "e036a66b8f6413f871f2dd8d02c423be287cdc4b7bcd4b6b74d59269772120ba",
+    "xiaolin": "acea650cd2c39e1d7757e5589b3bf37f879ae744d0c330983ddf61f2784a1bcf",
+    "merchant": "0c61c153b4627e1ce4f520c6589d7be86f04e91b150a899c9ea5d414852ba464"
+  },
+  "storyboard": "out/act03/storyboard.jpg",
+  "keyframes": [
+    {
+      "scene": "scene08",
+      "position": "first",
+      "frame": 0,
+      "path": "out/act03/keyframes/frame-0000.png"
+    },
+    {
+      "scene": "scene08",
+      "position": "middle",
+      "frame": 135,
+      "path": "out/act03/keyframes/frame-0135.png"
+    },
+    {
+      "scene": "scene08",
+      "position": "last",
+      "frame": 269,
+      "path": "out/act03/keyframes/frame-0269.png"
+    },
+    {
+      "scene": "scene09",
+      "position": "first",
+      "frame": 270,
+      "path": "out/act03/keyframes/frame-0270.png"
+    },
+    {
+      "scene": "scene09",
+      "position": "middle",
+      "frame": 495,
+      "path": "out/act03/keyframes/frame-0495.png"
+    },
+    {
+      "scene": "scene09",
+      "position": "last",
+      "frame": 719,
+      "path": "out/act03/keyframes/frame-0719.png"
+    },
+    {
+      "scene": "scene10",
+      "position": "first",
+      "frame": 720,
+      "path": "out/act03/keyframes/frame-0720.png"
+    },
+    {
+      "scene": "scene10",
+      "position": "middle",
+      "frame": 900,
+      "path": "out/act03/keyframes/frame-0900.png"
+    },
+    {
+      "scene": "scene10",
+      "position": "last",
+      "frame": 1079,
+      "path": "out/act03/keyframes/frame-1079.png"
+    },
+    {
+      "scene": "scene11",
+      "position": "first",
+      "frame": 1080,
+      "path": "out/act03/keyframes/frame-1080.png"
+    },
+    {
+      "scene": "scene11",
+      "position": "middle",
+      "frame": 1230,
+      "path": "out/act03/keyframes/frame-1230.png"
+    },
+    {
+      "scene": "scene11",
+      "position": "last",
+      "frame": 1379,
+      "path": "out/act03/keyframes/frame-1379.png"
+    },
+    {
+      "scene": "scene12",
+      "position": "first",
+      "frame": 1380,
+      "path": "out/act03/keyframes/frame-1380.png"
+    },
+    {
+      "scene": "scene12",
+      "position": "middle",
+      "frame": 1590,
+      "path": "out/act03/keyframes/frame-1590.png"
+    },
+    {
+      "scene": "scene12",
+      "position": "last",
+      "frame": 1799,
+      "path": "out/act03/keyframes/frame-1799.png"
+    }
+  ],
+  "checks_not_performed": [
+    "Manual visual and motion review",
+    "Earlier-act pixel regression comparisons"
+  ]
+}
