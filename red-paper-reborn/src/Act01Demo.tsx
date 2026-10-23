@@ -55,5 +55,11 @@ export const Act01Demo = () => {
         playbackRate={0.92}
       />
     </Track>
+    <Audio
+      src={staticFile('MiniMax_2026-10-23_23_46_50_Kind-hearted_Grandma.mp3')}
+      durationInFrames={340.9}
+      from={702}
+      playbackRate={0.96}
+    />
   </>;
 };
