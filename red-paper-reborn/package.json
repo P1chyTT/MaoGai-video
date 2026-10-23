@@ -26,6 +26,8 @@
     "dev": "remotion studio src/index.ts --no-open",
     "render": "node scripts/render.mjs video",
     "keyframes": "node scripts/render.mjs frames",
+    "render:act02": "node scripts/render-act02.mjs video",
+    "keyframes:act02": "node scripts/render-act02.mjs frames",
     "typecheck": "tsc --noEmit",
     "check:portable": "node scripts/check-portable.mjs",
     "build": "remotion bundle",

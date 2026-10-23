@@ -1,5 +1,7 @@
 # 红纸新生 · 第一幕
 
+现已新增第二幕 Scene04–07 动作增强版（55秒／1650帧）。[第二幕制作与复用说明](ACT02_GUIDE.md) · [最新视频](out/Act02Demo-Motion.mp4) · [关键帧总览](out/act02/storyboard.jpg)。Studio选择Act02Demo，运行 `npm run keyframes:act02` 和 `npm run render:act02` 导出第二幕。下文为第一幕基线说明。
+
 React + TypeScript + Remotion 4.0.537 制作的彩色皮影／剪纸风格样片。1920×1080，30 fps，36秒，1080帧。无声，含完整对白字幕。
 
 ## 交付

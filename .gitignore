@@ -23,6 +23,15 @@ coverage/
 # Keep imported videos, PNGs, SVGs, fonts, and audio under src/ and public/.
 /red-paper-reborn/out/*
 !/red-paper-reborn/out/Act01Demo.mp4
+!/red-paper-reborn/out/Act02Demo.mp4
+!/red-paper-reborn/out/Act02Demo-Motion.mp4
+!/red-paper-reborn/out/act02/
+/red-paper-reborn/out/act02/*
+!/red-paper-reborn/out/act02/keyframes/
+!/red-paper-reborn/out/act02/storyboard.jpg
+!/red-paper-reborn/out/act02/verification.json
+!/red-paper-reborn/out/act02/README.md
+!/red-paper-reborn/out/act02/Act02Demo-before-motion.mp4
 !/red-paper-reborn/out/storyboard.jpg
 !/red-paper-reborn/out/verification.json
 !/red-paper-reborn/out/README.md

@@ -1,0 +1,19 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration_seconds": 55,
+  "frames": 1650,
+  "decoded_frames": 1650,
+  "codec": "h264",
+  "pixel_format": "yuv420p",
+  "audio_streams": 0,
+  "frame_mean_range": [
+    147.38454861111111,
+    171.47439236111111
+  ],
+  "black_or_white_frames": false,
+  "dialogue_matches_request": true,
+  "original_character_hashes_match": true,
+  "bytes": 15433224
+}

@@ -9,7 +9,7 @@ export const WoodLines:React.FC<{detail?:boolean}> = ({detail=false}) => <g fill
   {Array.from({length:24},(_,i)=><path key={i} d={`M${detail?180:540} ${detail?195+i*27:744+i*2} Q${700+i*19} ${detail?170+i*27:753+i*2} ${detail?1730:1650} ${detail?200+i*27:745+i*2}`}/>)}
 </g>;
 
-export const OldHouseStage:React.FC<{frame:number;grandmaFrame?:number;scale?:number;shiftX?:number;shiftY?:number;intro?:boolean;detail?:boolean;children?:React.ReactNode}> = ({frame,grandmaFrame,scale=1,shiftX=0,shiftY=0,intro=false,detail=false,children}) => {
+export const OldHouseStage:React.FC<{frame:number;grandmaFrame?:number;puppetFrame?:number;toolFrame?:number;puppetHeadAngle?:number;puppetBodyAngle?:number;scale?:number;shiftX?:number;shiftY?:number;intro?:boolean;detail?:boolean;children?:React.ReactNode}> = ({frame,grandmaFrame,puppetFrame=grandmaFrame,toolFrame=grandmaFrame,puppetHeadAngle,puppetBodyAngle,scale=1,shiftX=0,shiftY=0,intro=false,detail=false,children}) => {
   const prefix=useId().replace(/:/g,'');
   const id=(s:string)=>`${prefix}-${s}`;
   const url=(s:string)=>`url(#${id(s)})`;
@@ -57,7 +57,7 @@ export const OldHouseStage:React.FC<{frame:number;grandmaFrame?:number;scale?:nu
         {/* A chair and control rods make the flat silhouette read as a seated puppet. */}
         {grandmaFrame!==undefined?<g fill="none" stroke={colors.wood}><path d="M615 783V512Q650 475 686 512V797M628 525H672M638 536V773M661 536V773" strokeWidth="9"/><path d="M626 810L611 960M686 810L699 956" strokeWidth="12"/></g>:null}
       </svg>
-      {grandmaFrame!==undefined?<PuppetCharacter frame={grandmaFrame}/>:null}
+      {grandmaFrame!==undefined?<PuppetCharacter frame={puppetFrame??grandmaFrame} headAngle={puppetHeadAngle} bodyAngle={puppetBodyAngle}/>:null}
       <svg width="1920" height="1080" viewBox="0 0 1920 1080" style={{position:'absolute',inset:0}}>
         <g style={{filter:'drop-shadow(0px 8px 5px rgba(45,30,27,.16))'}}>
           <path d="M565 785L545 978H584L609 797M1568 791L1592 978H1629L1612 783" fill={colors.wood} stroke={colors.ink} strokeWidth="4"/>
@@ -80,7 +80,7 @@ export const OldHouseStage:React.FC<{frame:number;grandmaFrame?:number;scale?:nu
         {grandmaFrame!==undefined?<g transform={`translate(1047 ${666+Math.sin(grandmaFrame/35)*1.2})`}>
           <path d="M-42-12L65-3L86 45L-22 37Z" fill={colors.red} stroke="#772626" strokeWidth="2"/>
           <path d="M-34-6L55 2M-29 0L38 5" stroke="#d16851" opacity=".5"/>
-          <ScissorAnimation frame={grandmaFrame} scale={.49}/><path d="M-37 18L-75 288" stroke="#6c5538" strokeWidth="2" opacity=".58"/>
+          <ScissorAnimation frame={toolFrame??grandmaFrame} scale={.49}/><path d="M-37 18L-75 288" stroke="#6c5538" strokeWidth="2" opacity=".58"/>
         </g>:null}
         {/* Foreground scrollwork sits one plane closer than the house. */}
         <path d="M92 985V795Q160 787 181 832Q154 844 149 878Q190 861 210 902Q172 909 177 945H225V987Z" fill={colors.wood} opacity=".85"/>

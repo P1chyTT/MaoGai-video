@@ -15,4 +15,8 @@ try {
   if(composition.durationInFrames!==1080||composition.fps!==30||composition.width!==1920||composition.height!==1080) throw new Error('Composition metadata changed');
   await renderStill({serveUrl,composition,frame:465,output:path.join(root,'out/portable-font-check.png'),imageFormat:'png',puppeteerInstance:browser,port:3102});
   console.log('Portable render passed: Scene02 frame 465, using the distributed Source Han Serif font.');
+  const act02=await selectComposition({serveUrl,id:'Act02Demo',puppeteerInstance:browser,port:3102});
+  if(act02.durationInFrames!==1650||act02.fps!==30||act02.width!==1920||act02.height!==1080) throw new Error('Act II composition metadata changed');
+  await renderStill({serveUrl,composition:act02,frame:1425,output:path.join(root,'out/portable-font-act02-check.png'),imageFormat:'png',puppeteerInstance:browser,port:3102});
+  console.log('Portable render passed: Scene07 frame 1425, using the distributed Source Han Serif font.');
 } finally {await browser.close({silent:true});}

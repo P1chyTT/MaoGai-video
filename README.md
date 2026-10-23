@@ -1,8 +1,14 @@
 # 《红纸新生》｜皮影戏 MG 动画协作仓库
 
+**最新进度（2026-10-23）：第二幕 Scene04–07 动作增强版已完成，55秒／1650帧。** 小林增加点头、前倾、前臂手势和随手移动的手机，奶奶增加停剪后的抬头与回应。当前仍为无声视觉Demo，待团队审片；第一幕基线继续保留。
+
+[观看／下载第二幕动作增强版](red-paper-reborn/out/Act02Demo-Motion.mp4) · [第二幕制作与复用说明](red-paper-reborn/ACT02_GUIDE.md) · [前一版视频对照](red-paper-reborn/out/act02/Act02Demo-before-motion.mp4)
+
+![第二幕动作增强版关键帧](red-paper-reborn/out/act02/storyboard.jpg)
+
 以传统彩色皮影、剪纸和宣纸幕布为视觉标准，使用 React + TypeScript + Remotion 制作非遗剪纸文化传承短片。
 
-**当前进度（2026-10-21）：第一幕前三镜视觉 Demo 已完成；全片尚未完成。** 现有样片长36秒、1920×1080、30 fps、1080帧，含对白字幕，暂无配音、音效和配乐。该版本可供分镜、美术、动画和声音成员接续制作，视觉规范待团队审阅确认。
+**第一幕基线（2026-10-21）：前三镜视觉 Demo 已完成；全片尚未完成。** 第一幕样片长36秒、1920×1080、30 fps、1080帧，含对白字幕，暂无配音、音效和配乐。该版本可供分镜、美术、动画和声音成员接续制作，视觉规范待团队审阅确认。
 
 ![第一幕九帧总览](red-paper-reborn/out/storyboard.jpg)
 
@@ -10,6 +16,8 @@
 
 |内容|位置|
 |---|---|
+|55秒第二幕动作增强版|[观看／下载 Act02Demo-Motion.mp4](red-paper-reborn/out/Act02Demo-Motion.mp4)|
+|第二幕关键帧与参数核验|[关键帧](red-paper-reborn/out/act02/keyframes) · [检查记录](red-paper-reborn/out/act02/verification.json)|
 |36秒 MP4 样片|[观看／下载 Act01Demo.mp4](red-paper-reborn/out/Act01Demo.mp4)|
 |三个镜头首、中、末帧|[关键帧目录](red-paper-reborn/out/keyframes)|
 |实际输出与检查结果|[QA_REPORT](red-paper-reborn/QA_REPORT.md) · [参数记录](red-paper-reborn/out/verification.json)|
@@ -31,15 +39,17 @@ npm install
 npm run dev
 ```
 
-打开终端显示的本地地址，选择 **Act01Demo**；也可独立打开 Scene01、Scene02、Scene03。
+打开终端显示的本地地址，选择 **Act01Demo** 或 **Act02Demo**；也可独立打开 Scene01–Scene07。
 
 ```sh
 npm run lint       # 代码规范 + TypeScript
 npm run keyframes  # 首／中／末帧与凤凰完成帧
 npm run render     # 输出 out/Act01Demo.mp4
+npm run keyframes:act02  # 第二幕关键帧
+npm run render:act02     # 输出 out/Act02Demo.mp4
 ```
 
-已有依赖的 Windows 电脑也可运行工程内 `preview.cmd`、`render-demo.cmd`。渲染脚本固定使用3101端口，与 Studio 的3000端口分开；运行前保证该端口可用。
+已有依赖的 Windows 电脑也可运行工程内 `preview.cmd`、`render-demo.cmd`（后者导出第一幕）。第一幕渲染使用3101端口，第二幕使用3103端口，与Studio分开；运行前保证相应端口可用。
 
 ## 工程结构
 
@@ -47,8 +57,10 @@ npm run render     # 输出 out/Act01Demo.mp4
 red-paper-reborn/
   src/
     Act01Demo.tsx           # 240 + 450 + 390 帧的连续时间线
+    Act02Demo.tsx           # 360 + 420 + 420 + 450 帧的第二幕
     Root.tsx                # 总片及独立镜头注册
-    scenes/                 # 三个镜头
+    scenes/                 # 七个镜头
+    act02/                  # 第二幕动作参数、小林、手机和字幕
     shared/                 # 舞台、房间、原图人物、剪刀、凤凰、字幕
   public/assets/
     characters/             # 四位原始角色PNG及校验清单

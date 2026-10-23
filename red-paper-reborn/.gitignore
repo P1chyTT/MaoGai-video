@@ -6,6 +6,15 @@ dist
 # Ignore the output video from Git but not videos you import into src/.
 /out/*
 !/out/Act01Demo.mp4
+!/out/Act02Demo.mp4
+!/out/Act02Demo-Motion.mp4
+!/out/act02/
+/out/act02/*
+!/out/act02/keyframes/
+!/out/act02/storyboard.jpg
+!/out/act02/verification.json
+!/out/act02/README.md
+!/out/act02/Act02Demo-before-motion.mp4
 !/out/storyboard.jpg
 !/out/verification.json
 !/out/README.md
