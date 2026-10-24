@@ -31,4 +31,10 @@ try {
     await renderStill({serveUrl,composition:act04,frame,output:path.join(root,`out/portable-font-act04-alternate-${frame}-check.png`),imageFormat:'png',puppeteerInstance:browser,port:3102});
   }
   console.log('Portable render passed: Act IV alternate montage, comments and craft comparison, using the distributed Source Han Serif font.');
+  const act06=await selectComposition({serveUrl,id:'Act06Demo',puppeteerInstance:browser,port:3102});
+  if(act06.durationInFrames!==600||act06.fps!==30||act06.width!==1920||act06.height!==1080) throw new Error('Act VI composition metadata changed');
+  for(const frame of [165,285,599]){
+    await renderStill({serveUrl,composition:act06,frame,output:path.join(root,`out/portable-font-act06-${frame}-check.png`),imageFormat:'png',puppeteerInstance:browser,port:3102});
+  }
+  console.log('Portable render passed: Act VI original youth, modern papercut and held final scroll, using the distributed Source Han Serif font.');
 } finally {await browser.close({silent:true});}

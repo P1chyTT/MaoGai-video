@@ -1,0 +1,212 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "frames": 600,
+  "decoded_frames": 600,
+  "duration_seconds": 20.0,
+  "codec": "h264",
+  "pixel_format": "yuv420p",
+  "audio_streams": 0,
+  "black_frames": [],
+  "white_frames": [],
+  "frame_mean_luma_range": [
+    149.08463541666666,
+    205.86371527777777
+  ],
+  "status": "passed",
+  "scope": "technical export, exact wording, original assets and final hold; not voiceover approval",
+  "video": "out/Act06Demo.mp4",
+  "bytes": 7401448,
+  "video_sha256": "ce928f85843b74dddab1fbcde66469fb9ff1d1565bd0ca8a076d1bccf25457db",
+  "caption_checks": {
+    "scene21": {
+      "frames": 120,
+      "dialogue_matches_request": true,
+      "segments": 2,
+      "cjk_characters_per_second": [
+        9.38,
+        5.42
+      ],
+      "last_end_ms": 4000,
+      "times_in_range_and_nonoverlapping": true
+    },
+    "scene22": {
+      "frames": 90,
+      "dialogue_matches_request": true,
+      "segments": 1,
+      "cjk_characters_per_second": [
+        4.67
+      ],
+      "last_end_ms": 3000,
+      "times_in_range_and_nonoverlapping": true
+    },
+    "scene23": {
+      "frames": 150,
+      "dialogue_matches_request": true,
+      "segments": 2,
+      "cjk_characters_per_second": [
+        7.5,
+        6.92
+      ],
+      "last_end_ms": 5000,
+      "times_in_range_and_nonoverlapping": true
+    },
+    "scene24": {
+      "frames": 240,
+      "dialogue_matches_request": true,
+      "segments": 4,
+      "cjk_characters_per_second": [
+        7.6,
+        7.0,
+        6.29,
+        6.29
+      ],
+      "last_end_ms": 8000,
+      "times_in_range_and_nonoverlapping": true
+    }
+  },
+  "themes_match_request": true,
+  "original_character_hashes_match": true,
+  "character_sha256": {
+    "grandma": "e036a66b8f6413f871f2dd8d02c423be287cdc4b7bcd4b6b74d59269772120ba",
+    "xiaolin": "acea650cd2c39e1d7757e5589b3bf37f879ae744d0c330983ddf61f2784a1bcf",
+    "youth": "9c1a6690c99d04dfc3206326a0620478e4f24f58637259df3110e55965e031b0"
+  },
+  "keyframes": [
+    {
+      "scene": "scene21",
+      "position": "first",
+      "frame": 0,
+      "path": "out/act06/keyframes/frame-0000.png"
+    },
+    {
+      "scene": "scene21",
+      "position": "middle",
+      "frame": 60,
+      "path": "out/act06/keyframes/frame-0060.png"
+    },
+    {
+      "scene": "scene21",
+      "position": "last",
+      "frame": 119,
+      "path": "out/act06/keyframes/frame-0119.png"
+    },
+    {
+      "scene": "scene22",
+      "position": "first",
+      "frame": 120,
+      "path": "out/act06/keyframes/frame-0120.png"
+    },
+    {
+      "scene": "scene22",
+      "position": "middle",
+      "frame": 165,
+      "path": "out/act06/keyframes/frame-0165.png"
+    },
+    {
+      "scene": "scene22",
+      "position": "last",
+      "frame": 209,
+      "path": "out/act06/keyframes/frame-0209.png"
+    },
+    {
+      "scene": "scene23",
+      "position": "first",
+      "frame": 210,
+      "path": "out/act06/keyframes/frame-0210.png"
+    },
+    {
+      "scene": "scene23",
+      "position": "middle",
+      "frame": 285,
+      "path": "out/act06/keyframes/frame-0285.png"
+    },
+    {
+      "scene": "scene23",
+      "position": "last",
+      "frame": 359,
+      "path": "out/act06/keyframes/frame-0359.png"
+    },
+    {
+      "scene": "scene24",
+      "position": "first",
+      "frame": 360,
+      "path": "out/act06/keyframes/frame-0360.png"
+    },
+    {
+      "scene": "scene24",
+      "position": "middle",
+      "frame": 480,
+      "path": "out/act06/keyframes/frame-0480.png"
+    },
+    {
+      "scene": "scene24",
+      "position": "last",
+      "frame": 599,
+      "path": "out/act06/keyframes/frame-0599.png"
+    }
+  ],
+  "extra_keyframes": [
+    {
+      "frame": 30,
+      "path": "out/act06/keyframes/frame-0030.png"
+    },
+    {
+      "frame": 90,
+      "path": "out/act06/keyframes/frame-0090.png"
+    },
+    {
+      "frame": 150,
+      "path": "out/act06/keyframes/frame-0150.png"
+    },
+    {
+      "frame": 195,
+      "path": "out/act06/keyframes/frame-0195.png"
+    },
+    {
+      "frame": 240,
+      "path": "out/act06/keyframes/frame-0240.png"
+    },
+    {
+      "frame": 300,
+      "path": "out/act06/keyframes/frame-0300.png"
+    },
+    {
+      "frame": 390,
+      "path": "out/act06/keyframes/frame-0390.png"
+    },
+    {
+      "frame": 420,
+      "path": "out/act06/keyframes/frame-0420.png"
+    },
+    {
+      "frame": 450,
+      "path": "out/act06/keyframes/frame-0450.png"
+    },
+    {
+      "frame": 510,
+      "path": "out/act06/keyframes/frame-0510.png"
+    },
+    {
+      "frame": 540,
+      "path": "out/act06/keyframes/frame-0540.png"
+    },
+    {
+      "frame": 570,
+      "path": "out/act06/keyframes/frame-0570.png"
+    }
+  ],
+  "final_second_source_frames_pixel_identical": true,
+  "warnings": [
+    "scene21: dense subtitle reading; do not record natural voiceover to this timing without review.",
+    "scene23: dense subtitle reading; do not record natural voiceover to this timing without review.",
+    "scene24: dense subtitle reading; do not record natural voiceover to this timing without review."
+  ],
+  "voiceover_timing_approved": false,
+  "checks_not_performed": [
+    "Natural-speed recorded voiceover and sound mixing",
+    "Whole-film continuity and final editorial approval",
+    "Earlier-act full pixel regression"
+  ]
+}

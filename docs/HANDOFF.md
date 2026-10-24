@@ -1,5 +1,13 @@
 # 队友接手指南
 
+## 最新交接：第六幕（2026-10-25）
+
+Scene21–24独立视觉成片已完成，20秒／600帧、1080p／30fps。[视频](../red-paper-reborn/out/Act06Demo.mp4)、[24张关键帧](../red-paper-reborn/out/act06/keyframes)、[ACT06_GUIDE](../red-paper-reborn/ACT06_GUIDE.md)、[核验记录](../red-paper-reborn/out/act06/verification.json)一并交接。Studio有 `Act06Demo` 与 `Act06-Scenes` 文件夹；源码在 `src/act06/`，命令为 `npm run keyframes:act06`、`npm run render:act06`、`python scripts/verify-act06.py`，端口3108。
+
+600帧全解码、原文、源图和最后一秒停留检查通过；仍是含字幕、无音轨的视觉版本。规定20秒内的原文较密，报告明确列出语速待复核，不能直接按本字幕时长快速配音。第五幕目前只有队友分支视频，未交接Scene17–20源码，本工程没有这四镜的Studio入口。不要用新第六幕代码覆盖前五幕，也不要未经团队确认整合音频或替换第四幕选版。
+
+六幕顺接参考261秒／4分21秒，不是已交付总片。下一步先确认第四幕版本、第五幕源工程，再统一录音、字幕、跨幕衔接与混音。下文保留既有四幕与分支交接资料。
+
 ## 1. 先确认当前基线
 
 先看仓库首页的第一幕36秒样片、第二幕55秒动作增强版、第三幕60秒样片及对应关键帧，再读 [项目进度](../PROGRESS.md)、[美术规范](../red-paper-reborn/STYLE_GUIDE.md)、[第二幕指南](../red-paper-reborn/ACT02_GUIDE.md)、[第三幕指南](../red-paper-reborn/ACT03_GUIDE.md) 和 [第四幕备选版指南](../red-paper-reborn/ACT04_GUIDE.md)。Scene01–12已有无声视觉Demo；本地Scene13–16的50秒、1500帧代码动画、23张关键帧和视频也已完成，现按“第四幕（备选版）”单独上传，不替代队友的第四幕交付。
@@ -100,6 +108,6 @@ export const Scene17 = () => {
 
 GitHub Actions默认做代码检查和后备字体的单帧渲染，不自动生成整段视频。需要重新渲染时，在Actions页面手动运行制作检查流程并勾选视频输出；结果作为Actions artifact提供，不自动覆盖仓库里程碑文件。
 
-可运行 `npm run check:portable`，它仅在临时渲染包中移除可选仿宋，以分发的思源宋体渲染第一幕465帧、第二幕1425帧、第三幕210／660／1710帧、第四幕备选版525／930／1440帧，并检查合成规格。上述代表帧本地检查已通过；它们验证字体后备和入口，不等同于全部镜头逐帧回归。
+可运行 `npm run check:portable`，它仅在临时渲染包中移除可选仿宋，以分发的思源宋体渲染第一幕465帧、第二幕1425帧、第三幕210／660／1710帧、第四幕备选版525／930／1440帧，以及第六幕165／285／599帧，并检查合成规格。这些代表帧验证字体后备和入口，不等同于全部镜头逐帧回归；第五幕没有可用源码，不在此检查范围。
 
 `verify_output.py`、`contact_sheet.py` 是可选Python辅助工具，需要Pillow；前者在Windows使用Remotion自带解码器，其他系统需先安装ffmpeg／ffprobe，后者读取工程内字体。两者不是安装、预览和渲染的必要依赖。

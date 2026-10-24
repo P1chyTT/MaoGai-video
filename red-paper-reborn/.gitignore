@@ -10,6 +10,14 @@ dist
 !/out/Act02Demo-Motion.mp4
 !/out/Act03Demo.mp4
 !/out/Act04Demo-Alternate.mp4
+!/out/Act06Demo.mp4
+!/out/act06/
+/out/act06/*
+!/out/act06/keyframes/
+!/out/act06/storyboard.jpg
+!/out/act06/motion-details.jpg
+!/out/act06/verification.json
+!/out/act06/README.md
 !/out/act04/
 /out/act04/*
 !/out/act04/keyframes/
