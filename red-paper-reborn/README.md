@@ -1,5 +1,11 @@
 # 红纸新生 · 第一幕
 
+最新交付为第三幕 Scene08–12（60秒／1800帧，1920×1080、30fps），含电脑合作邀请、商家入场、商业价格对照、小林劝说和奶奶放下剪刀。原始人物素材、老屋、凤凰和字幕标准沿用前两幕。第三幕仍为带字幕的无声视觉Demo。
+
+[第三幕完整视频](out/Act03Demo.mp4) · [关键帧总览](out/act03/storyboard.jpg) · [第三幕制作与复用说明](ACT03_GUIDE.md) · [核验记录](out/act03/verification.json)
+
+Studio选择 `Act03Demo` 或 `Scene08`–`Scene12`；运行 `npm run keyframes:act03`、`npm run render:act03` 导出。第三幕使用3106渲染端口。以下保留前两幕基线说明。
+
 现已新增第二幕 Scene04–07 动作增强版（55秒／1650帧）。[第二幕制作与复用说明](ACT02_GUIDE.md) · [最新视频](out/Act02Demo-Motion.mp4) · [关键帧总览](out/act02/storyboard.jpg)。Studio选择Act02Demo，运行 `npm run keyframes:act02` 和 `npm run render:act02` 导出第二幕。下文为第一幕基线说明。
 
 React + TypeScript + Remotion 4.0.537 制作的彩色皮影／剪纸风格样片。1920×1080，30 fps，36秒，1080帧。无声，含完整对白字幕。

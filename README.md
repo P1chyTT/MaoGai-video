@@ -6,6 +6,12 @@
 
 **进度（2026-10-23）：第二幕 Scene04–07 动作增强版已完成，55秒／1650帧。** 小林增加点头、前倾、前臂手势和随手移动的手机，奶奶增加停剪后的抬头与回应。当前仍为无声视觉Demo，待团队审片；第一幕基线继续保留。
 
+**最新进度（2026-10-24）：第三幕 Scene08–12 已完成，60秒／1800帧，1920×1080、30fps。** 新增电脑合作邀请、商家入场、9.9元价格印章、小林劝说，以及奶奶以原图分层前臂放下剪刀的动作。完整导出、1800帧解码、字幕及三位人物素材校验通过；仍为带字幕的无声视觉Demo，待团队审片。
+
+[第三幕完整视频](red-paper-reborn/out/Act03Demo.mp4) · [关键帧总览](red-paper-reborn/out/act03/storyboard.jpg) · [制作与复用说明](red-paper-reborn/ACT03_GUIDE.md) · [核验记录](red-paper-reborn/out/act03/verification.json)
+
+**第二幕里程碑（2026-10-23）：Scene04–07 动作增强版已完成，55秒／1650帧。** 小林增加点头、前倾、前臂手势和随手移动的手机，奶奶增加停剪后的抬头与回应。第一、二幕独立入口和既有输出继续保留。
+
 [观看／下载第二幕动作增强版](red-paper-reborn/out/Act02Demo-Motion.mp4) · [第二幕制作与复用说明](red-paper-reborn/ACT02_GUIDE.md) · [前一版视频对照](red-paper-reborn/out/act02/Act02Demo-before-motion.mp4)
 
 ![第二幕动作增强版关键帧](red-paper-reborn/out/act02/storyboard.jpg)
@@ -20,6 +26,9 @@
 
 |内容|位置|
 |---|---|
+|60秒第三幕完整样片|[观看／下载 Act03Demo.mp4](red-paper-reborn/out/Act03Demo.mp4)|
+|第三幕25张关键帧与动作总览|[首／中／末总览](red-paper-reborn/out/act03/storyboard.jpg) · [动作细节](red-paper-reborn/out/act03/motion-details.jpg) · [高清帧图](red-paper-reborn/out/act03/keyframes)|
+|第三幕规范、接口与验证|[制作与复用说明](red-paper-reborn/ACT03_GUIDE.md) · [核验记录](red-paper-reborn/out/act03/verification.json)|
 |55秒第二幕动作增强版|[观看／下载 Act02Demo-Motion.mp4](red-paper-reborn/out/Act02Demo-Motion.mp4)|
 |第二幕关键帧与参数核验|[关键帧](red-paper-reborn/out/act02/keyframes) · [检查记录](red-paper-reborn/out/act02/verification.json)|
 |36秒 MP4 样片|[观看／下载 Act01Demo.mp4](red-paper-reborn/out/Act01Demo.mp4)|
@@ -43,7 +52,7 @@ npm install
 npm run dev
 ```
 
-打开终端显示的本地地址，选择 **Act01Demo** 或 **Act02Demo**；也可独立打开 Scene01–Scene07。
+打开终端显示的本地地址，选择 **Act01Demo**、**Act02Demo** 或 **Act03Demo**；也可独立打开 Scene01–Scene12。
 
 ```sh
 npm run lint       # 代码规范 + TypeScript
@@ -51,9 +60,11 @@ npm run keyframes  # 首／中／末帧与凤凰完成帧
 npm run render     # 输出 out/Act01Demo.mp4
 npm run keyframes:act02  # 第二幕关键帧
 npm run render:act02     # 输出 out/Act02Demo.mp4
+npm run keyframes:act03  # 第三幕25张关键帧
+npm run render:act03     # 输出 out/Act03Demo.mp4
 ```
 
-已有依赖的 Windows 电脑也可运行工程内 `preview.cmd`、`render-demo.cmd`（后者导出第一幕）。第一幕渲染使用3101端口，第二幕使用3103端口，与Studio分开；运行前保证相应端口可用。
+已有依赖的 Windows 电脑也可运行工程内 `preview.cmd`、`render-demo.cmd`（后者导出第一幕）。第一幕渲染使用3101端口，第二幕使用3103端口，第三幕使用3106端口，与Studio分开；运行前保证相应端口可用。
 
 ## 工程结构
 
@@ -62,8 +73,10 @@ red-paper-reborn/
   src/
     Act01Demo.tsx           # 240 + 450 + 390 帧的连续时间线
     Act02Demo.tsx           # 360 + 420 + 420 + 450 帧的第二幕
+    Act03Demo.tsx           # 270 + 450 + 360 + 300 + 420 帧的第三幕
     Root.tsx                # 总片及独立镜头注册
-    scenes/                 # 七个镜头
+    scenes/                 # 十二个镜头
+    act03/                  # 第三幕编排、电脑桌、商家、商业道具与字幕
     act02/                  # 第二幕动作参数、小林、手机和字幕
     shared/                 # 舞台、房间、原图人物、剪刀、凤凰、字幕
   public/assets/

@@ -29,6 +29,8 @@
     "keyframes": "node scripts/render.mjs frames",
     "render:act02": "node scripts/render-act02.mjs video",
     "keyframes:act02": "node scripts/render-act02.mjs frames",
+    "render:act03": "node scripts/render-act03.mjs video",
+    "keyframes:act03": "node scripts/render-act03.mjs frames",
     "typecheck": "tsc --noEmit",
     "check:portable": "node scripts/check-portable.mjs",
     "build": "remotion bundle",
