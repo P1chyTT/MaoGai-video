@@ -1,4 +1,8 @@
-# 红纸新生 · 第一幕
+# 红纸新生 · Remotion 工程
+
+**第四幕（备选版）已收录：50秒／1500帧，1920×1080、30fps，含字幕、无音轨。** [备选版视频](out/Act04Demo-Alternate.mp4) · [23张关键帧](out/act04/keyframes) · [指南](ACT04_GUIDE.md) · [核验记录](out/act04/verification.json)。Studio选择 `Act04Alternate → Act04Demo` 或Scene13–16；运行 `npm run keyframes:act04`、`npm run render:act04`，后者输出带 `-Alternate` 的文件名，渲染端口3107。
+
+已确认队友在 `act04` 分支上传另一份第四幕视频，并提交[PR #1](https://github.com/P1chyTT/MaoGai-video/pull/1)，尚未合并。这里的第四幕源码与输出明确为备选版；[版本关系](../docs/ACT04_VERSIONS.md)记录两版入口，原队友版本保持原样。以下为此前里程碑说明。
 
 最新交付为第三幕 Scene08–12（60秒／1800帧，1920×1080、30fps），含电脑合作邀请、商家入场、商业价格对照、小林劝说和奶奶放下剪刀。原始人物素材、老屋、凤凰和字幕标准沿用前两幕。第三幕仍为带字幕的无声视觉Demo。
 

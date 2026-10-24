@@ -15,6 +15,11 @@ import {Scene09} from './scenes/Scene09';
 import {Scene10} from './scenes/Scene10';
 import {Scene11} from './scenes/Scene11';
 import {Scene12} from './scenes/Scene12';
+import {Act04Demo} from './Act04Demo';
+import {Scene13} from './scenes/Scene13';
+import {Scene14} from './scenes/Scene14';
+import {Scene15} from './scenes/Scene15';
+import {Scene16} from './scenes/Scene16';
 
 export const RemotionRoot: React.FC = () => {
   return (
@@ -22,6 +27,14 @@ export const RemotionRoot: React.FC = () => {
       <Composition id="Act01Demo" component={Act01Demo} durationInFrames={1080} fps={30} width={1920} height={1080}/>
       <Composition id="Act02Demo" component={Act02Demo} durationInFrames={1650} fps={30} width={1920} height={1080}/>
       <Composition id="Act03Demo" component={Act03Demo} durationInFrames={1800} fps={30} width={1920} height={1080}/>
+      {/* 第四幕（备选版）；保留 Act04Demo 技术ID以兼容既有预览链接。 */}
+      <Folder name="Act04Alternate">
+        <Composition id="Act04Demo" component={Act04Demo} durationInFrames={1500} fps={30} width={1920} height={1080}/>
+        <Composition id="Scene13" component={Scene13} durationInFrames={300} fps={30} width={1920} height={1080}/>
+        <Composition id="Scene14" component={Scene14} durationInFrames={360} fps={30} width={1920} height={1080}/>
+        <Composition id="Scene15" component={Scene15} durationInFrames={420} fps={30} width={1920} height={1080}/>
+        <Composition id="Scene16" component={Scene16} durationInFrames={420} fps={30} width={1920} height={1080}/>
+      </Folder>
       <Folder name="Act03-Scenes">
         <Composition id="Scene08" component={Scene08} durationInFrames={270} fps={30} width={1920} height={1080}/>
         <Composition id="Scene09" component={Scene09} durationInFrames={450} fps={30} width={1920} height={1080}/>

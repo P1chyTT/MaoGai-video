@@ -1,5 +1,15 @@
 # 项目进度
 
+## 2026-10-24：队友第四幕已上传，本地样片列为（备选版）
+
+已检查远程全部分支与合并请求：队友september-5在 `act04` 分支提交85afac9新增根目录 `Act04Demo.mp4`，19,558,330字节；[PR #1](https://github.com/P1chyTT/MaoGai-video/pull/1)目前开放、尚未合并。本次按用户要求上传本地版本为**第四幕（备选版）**，不修改队友分支、视频或PR，不替团队决定最终采用哪版。[版本说明](docs/ACT04_VERSIONS.md)。
+
+备选版Scene13–16完成50秒／1500帧独立Demo：倔强尝试、商品蒙太奇、评论质疑、机器印花与手工镂空对比。含准确字幕与评论，无配音、音效及音乐。制作规范与组件接口见 [ACT04_GUIDE](red-paper-reborn/ACT04_GUIDE.md)。
+
+- [备选版MP4](red-paper-reborn/out/Act04Demo-Alternate.mp4) · [12帧总览](red-paper-reborn/out/act04/storyboard.jpg) · [11帧动作细节](red-paper-reborn/out/act04/motion-details.jpg) · [核验记录](red-paper-reborn/out/act04/verification.json)。
+- 1920×1080、30fps、50.000秒、1500帧，完整解码、台词、评论、字幕时限及原素材校验通过；ESLint与TypeScript通过。Scene01–12与共享组件未修改。
+- 前三幕加本备选版累计201秒，不是已定稿整片时长。另发现队友 `act05` 分支和[PR #2](https://github.com/P1chyTT/MaoGai-video/pull/2)的第五幕视频，尚待审阅。下一步为第四幕版本选择、第五幕内容核对、配音校时与整片声音合成；第四幕不提前安排认错或和解。
+
 ## 2026-10-24：第三幕完成
 
 Scene08–12 已完成独立预览与完整MP4：9／15／12／10／14秒，共60秒、1800帧。电脑邀请、商业包装符号、价格印章、三人站位与奶奶放下剪刀均使用现有皮影视觉语言；原始人物未重绘。详见 [第三幕指南](red-paper-reborn/ACT03_GUIDE.md)。

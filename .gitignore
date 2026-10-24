@@ -26,6 +26,14 @@ coverage/
 !/red-paper-reborn/out/Act02Demo.mp4
 !/red-paper-reborn/out/Act02Demo-Motion.mp4
 !/red-paper-reborn/out/Act03Demo.mp4
+!/red-paper-reborn/out/Act04Demo-Alternate.mp4
+!/red-paper-reborn/out/act04/
+/red-paper-reborn/out/act04/*
+!/red-paper-reborn/out/act04/keyframes/
+!/red-paper-reborn/out/act04/storyboard.jpg
+!/red-paper-reborn/out/act04/motion-details.jpg
+!/red-paper-reborn/out/act04/verification.json
+!/red-paper-reborn/out/act04/README.md
 !/red-paper-reborn/out/act03/
 /red-paper-reborn/out/act03/*
 !/red-paper-reborn/out/act03/keyframes/
