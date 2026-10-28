@@ -25,6 +25,7 @@ import {Act06Demo} from './Act06Demo';
 import {Scene22} from './scenes/Scene22';
 import {Scene23} from './scenes/Scene23';
 import {Scene24} from './scenes/Scene24';
+import {Act05Demo} from './Act05Demo';
 
 export const RemotionRoot: React.FC = () => {
   return (
@@ -32,6 +33,8 @@ export const RemotionRoot: React.FC = () => {
       <Composition id="Act01Demo" component={Act01Demo} durationInFrames={1080} fps={30} width={1920} height={1080}/>
       <Composition id="Act02Demo" component={Act02Demo} durationInFrames={1650} fps={30} width={1920} height={1080}/>
       <Composition id="Act03Demo" component={Act03Demo} durationInFrames={1800} fps={30} width={1920} height={1080}/>
+      <Composition id="Act04Demo" component={Act04Demo} durationInFrames={1500} fps={30} width={1920} height={1080}/>
+      <Composition id="Act05Demo" component={Act05Demo} durationInFrames={1200} fps={30} width={1920} height={1080}/>
       <Composition id="Act06Demo" component={Act06Demo} durationInFrames={600} fps={30} width={1920} height={1080}/>
       <Folder name="Act06-Scenes">
         <Composition id="Scene21" component={Scene21} durationInFrames={120} fps={30} width={1920} height={1080}/>
@@ -41,11 +44,10 @@ export const RemotionRoot: React.FC = () => {
       </Folder>
       {/* 第四幕（备选版）；保留 Act04Demo 技术ID以兼容既有预览链接。 */}
       <Folder name="Act04Alternate">
-        <Composition id="Act04Demo" component={Act04Demo} durationInFrames={1500} fps={30} width={1920} height={1080}/>
         <Composition id="Scene13" component={Scene13} durationInFrames={300} fps={30} width={1920} height={1080}/>
         <Composition id="Scene14" component={Scene14} durationInFrames={360} fps={30} width={1920} height={1080}/>
         <Composition id="Scene15" component={Scene15} durationInFrames={420} fps={30} width={1920} height={1080}/>
-        <Composition id="Scene16" component={Scene16} durationInFrames={420} fps={30} width={1920} height={1080}/>
+        <Composition id="Scene16" component={Scene16} durationInFrames={478} fps={30} width={1920} height={1080}/>
       </Folder>
       <Folder name="Act03-Scenes">
         <Composition id="Scene08" component={Scene08} durationInFrames={270} fps={30} width={1920} height={1080}/>
