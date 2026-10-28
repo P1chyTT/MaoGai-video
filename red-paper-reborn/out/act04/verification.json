@@ -1,0 +1,200 @@
+{
+  "status": "passed",
+  "version_role": "alternate",
+  "video": "out/Act04Demo-Alternate.mp4",
+  "video_sha256": "22dbfc50057b07933b01a863d04c54504672548764846498b299e0e12354fd44",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "nominal_frame_rate": "30/1",
+  "average_frame_rate": "30/1",
+  "duration_seconds": 50.0,
+  "frames": 1500,
+  "decoded_frames": 1500,
+  "codec": "h264",
+  "pixel_format": "yuv420p",
+  "audio_streams": 0,
+  "bytes": 14577778,
+  "frame_mean_luma_range": [
+    156.71701388888889,
+    213.23307291666666
+  ],
+  "black_frame_threshold_luma": 8,
+  "white_frame_threshold_luma": 247,
+  "black_frames": [],
+  "white_frames": [],
+  "black_or_white_frames": false,
+  "dialogue_matches_request": true,
+  "caption_checks": {
+    "scene13": {
+      "frames": 300,
+      "duration_ms": 10000.0,
+      "segments": 2,
+      "last_end_ms": 9500,
+      "dialogue_matches_request": true,
+      "times_in_range_and_nonoverlapping": true
+    },
+    "scene14": {
+      "frames": 360,
+      "duration_ms": 12000.0,
+      "segments": 3,
+      "last_end_ms": 11000,
+      "dialogue_matches_request": true,
+      "times_in_range_and_nonoverlapping": true
+    },
+    "scene15": {
+      "frames": 420,
+      "duration_ms": 14000.0,
+      "segments": 0,
+      "last_end_ms": 0,
+      "dialogue_matches_request": true,
+      "times_in_range_and_nonoverlapping": true
+    },
+    "scene16": {
+      "frames": 420,
+      "duration_ms": 14000.0,
+      "segments": 1,
+      "last_end_ms": 10900,
+      "dialogue_matches_request": true,
+      "times_in_range_and_nonoverlapping": true
+    }
+  },
+  "scene15_bottom_dialogue_absent": true,
+  "screen_comments_match_request": true,
+  "screen_comments": [
+    "这剪纸也太敷衍了",
+    "奶奶看了会心疼",
+    "不如直接买打印贴"
+  ],
+  "original_character_hashes_match": true,
+  "character_sha256": {
+    "grandma": "e036a66b8f6413f871f2dd8d02c423be287cdc4b7bcd4b6b74d59269772120ba",
+    "xiaolin": "acea650cd2c39e1d7757e5589b3bf37f879ae744d0c330983ddf61f2784a1bcf",
+    "merchant": "0c61c153b4627e1ce4f520c6589d7be86f04e91b150a899c9ea5d414852ba464"
+  },
+  "storyboard": "out/act04/storyboard.jpg",
+  "keyframes": [
+    {
+      "scene": "scene13",
+      "position": "first",
+      "frame": 0,
+      "path": "out/act04/keyframes/frame-0000.png"
+    },
+    {
+      "scene": "scene13",
+      "position": "middle",
+      "frame": 150,
+      "path": "out/act04/keyframes/frame-0150.png"
+    },
+    {
+      "scene": "scene13",
+      "position": "last",
+      "frame": 299,
+      "path": "out/act04/keyframes/frame-0299.png"
+    },
+    {
+      "scene": "scene14",
+      "position": "first",
+      "frame": 300,
+      "path": "out/act04/keyframes/frame-0300.png"
+    },
+    {
+      "scene": "scene14",
+      "position": "middle",
+      "frame": 480,
+      "path": "out/act04/keyframes/frame-0480.png"
+    },
+    {
+      "scene": "scene14",
+      "position": "last",
+      "frame": 659,
+      "path": "out/act04/keyframes/frame-0659.png"
+    },
+    {
+      "scene": "scene15",
+      "position": "first",
+      "frame": 660,
+      "path": "out/act04/keyframes/frame-0660.png"
+    },
+    {
+      "scene": "scene15",
+      "position": "middle",
+      "frame": 870,
+      "path": "out/act04/keyframes/frame-0870.png"
+    },
+    {
+      "scene": "scene15",
+      "position": "last",
+      "frame": 1079,
+      "path": "out/act04/keyframes/frame-1079.png"
+    },
+    {
+      "scene": "scene16",
+      "position": "first",
+      "frame": 1080,
+      "path": "out/act04/keyframes/frame-1080.png"
+    },
+    {
+      "scene": "scene16",
+      "position": "middle",
+      "frame": 1290,
+      "path": "out/act04/keyframes/frame-1290.png"
+    },
+    {
+      "scene": "scene16",
+      "position": "last",
+      "frame": 1499,
+      "path": "out/act04/keyframes/frame-1499.png"
+    }
+  ],
+  "extra_keyframes": [
+    {
+      "frame": 345,
+      "path": "out/act04/keyframes/frame-0345.png"
+    },
+    {
+      "frame": 390,
+      "path": "out/act04/keyframes/frame-0390.png"
+    },
+    {
+      "frame": 435,
+      "path": "out/act04/keyframes/frame-0435.png"
+    },
+    {
+      "frame": 525,
+      "path": "out/act04/keyframes/frame-0525.png"
+    },
+    {
+      "frame": 570,
+      "path": "out/act04/keyframes/frame-0570.png"
+    },
+    {
+      "frame": 615,
+      "path": "out/act04/keyframes/frame-0615.png"
+    },
+    {
+      "frame": 840,
+      "path": "out/act04/keyframes/frame-0840.png"
+    },
+    {
+      "frame": 930,
+      "path": "out/act04/keyframes/frame-0930.png"
+    },
+    {
+      "frame": 990,
+      "path": "out/act04/keyframes/frame-0990.png"
+    },
+    {
+      "frame": 1350,
+      "path": "out/act04/keyframes/frame-1350.png"
+    },
+    {
+      "frame": 1440,
+      "path": "out/act04/keyframes/frame-1440.png"
+    }
+  ],
+  "checks_not_performed": [
+    "Manual visual, text-readability and motion review",
+    "Earlier-act pixel regression comparisons"
+  ]
+}
