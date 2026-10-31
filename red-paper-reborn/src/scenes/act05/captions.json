@@ -1,0 +1,122 @@
+{
+  "Scene17": [
+    {
+      "text": "我想换个拍法：",
+      "startMs": 800,
+      "endMs": 3500,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "拍风景，也拍守护它的人。",
+      "startMs": 3500,
+      "endMs": 7500,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "再做条步行路线，",
+      "startMs": 7500,
+      "endMs": 10600,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "让来的人懂得珍惜。",
+      "startMs": 10600,
+      "endMs": 13800,
+      "timestampMs": null,
+      "confidence": null
+    }
+  ],
+  "Scene18": [
+    {
+      "text": "她把镜头对准普通人的双手。",
+      "startMs": 800,
+      "endMs": 4800,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "有人守护溪岸，",
+      "startMs": 4800,
+      "endMs": 7800,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "有人接待游客，",
+      "startMs": 7800,
+      "endMs": 10300,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "也有人把农产品送到顾客手中。",
+      "startMs": 10300,
+      "endMs": 13900,
+      "timestampMs": null,
+      "confidence": null
+    }
+  ],
+  "Scene19": [
+    {
+      "text": "热闹也得有分寸。",
+      "startMs": 700,
+      "endMs": 3400,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "沿步道走，垃圾带走，不打扰生活。",
+      "startMs": 3400,
+      "endMs": 7700,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "让大家喜欢这里，",
+      "startMs": 7700,
+      "endMs": 10400,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "也一起护好这里。",
+      "startMs": 10400,
+      "endMs": 13800,
+      "timestampMs": null,
+      "confidence": null
+    }
+  ],
+  "Scene20": [
+    {
+      "text": "你们肯接着干，",
+      "startMs": 800,
+      "endMs": 3600,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "这山水就有人惦记。",
+      "startMs": 3600,
+      "endMs": 6300,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "爷爷，您留下的故事，",
+      "startMs": 7000,
+      "endMs": 10000,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "我接着拍，也接着做。",
+      "startMs": 10000,
+      "endMs": 13800,
+      "timestampMs": null,
+      "confidence": null
+    }
+  ]
+}

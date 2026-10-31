@@ -1,0 +1,94 @@
+{
+  "Scene05": [
+    {
+      "text": "二〇〇三年至二〇〇五年，",
+      "startMs": 500,
+      "endMs": 4500,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "余村陆续关停矿山和水泥厂，",
+      "startMs": 4500,
+      "endMs": 8500,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "开始寻找新路。",
+      "startMs": 8500,
+      "endMs": 11500,
+      "timestampMs": null,
+      "confidence": null
+    }
+  ],
+  "Scene06": [
+    {
+      "text": "活停了，收入少了，",
+      "startMs": 500,
+      "endMs": 3100,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "心里哪能不急。",
+      "startMs": 3100,
+      "endMs": 6800,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "不开矿，村里靠什么生活？",
+      "startMs": 7100,
+      "endMs": 11600,
+      "timestampMs": null,
+      "confidence": null
+    }
+  ],
+  "Scene07": [
+    {
+      "text": "山不能只看眼前能换多少钱，",
+      "startMs": 500,
+      "endMs": 4500,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "也要看以后，",
+      "startMs": 4500,
+      "endMs": 8300,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "还能给子孙留下些什么。",
+      "startMs": 8300,
+      "endMs": 12200,
+      "timestampMs": null,
+      "confidence": null
+    }
+  ],
+  "Scene08": [
+    {
+      "text": "清理溪道，复垦复绿，尝试农家乐。",
+      "startMs": 500,
+      "endMs": 4600,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "新路不是等来的，",
+      "startMs": 4600,
+      "endMs": 8500,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "也没有一开始就走顺。",
+      "startMs": 8500,
+      "endMs": 12300,
+      "timestampMs": null,
+      "confidence": null
+    }
+  ]
+}

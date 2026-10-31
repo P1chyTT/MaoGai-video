@@ -1,0 +1,98 @@
+{
+  "project": "山河有约",
+  "composition": "Act02Demo",
+  "scope": "Scene05–Scene08 only; local 0–50s / global 40–90s; no recorded voices",
+  "media": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1920,
+        "height": 1080,
+        "pix_fmt": "yuv420p",
+        "color_range": "tv",
+        "color_space": "bt709",
+        "r_frame_rate": "30/1",
+        "duration": "50.000000",
+        "nb_read_frames": "1500"
+      },
+      {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2,
+        "r_frame_rate": "0/0",
+        "duration": "50.005000",
+        "nb_read_frames": "2344"
+      }
+    ],
+    "format": {
+      "duration": "50.005000",
+      "size": "10204776"
+    }
+  },
+  "sha256": "0b0442a19632071c0dd5fd5fe3ba4dbe0f020b239a1d86545dd5d329f75fd785",
+  "size_mib": 9.73,
+  "complete_video_and_audio_decode_passed": true,
+  "frame_scan": {
+    "frames": 1500,
+    "analysis_resolution": [
+      160,
+      90
+    ],
+    "black_threshold": "99% pixels below 16",
+    "white_threshold": "99% pixels above 248",
+    "black_frames": [],
+    "white_frames": [],
+    "mean_luma_range": [
+      167.13,
+      223.06
+    ]
+  },
+  "audio_peak_dbfs": -23.12,
+  "audio_rms_dbfs": -51.49,
+  "keyframe_indices": [
+    0,
+    180,
+    359,
+    360,
+    540,
+    719,
+    720,
+    915,
+    1109,
+    1110,
+    1305,
+    1499
+  ],
+  "keyframe_count": 12,
+  "global_frame_indices": [
+    1200,
+    1380,
+    1559,
+    1560,
+    1740,
+    1919,
+    1920,
+    2115,
+    2309,
+    2310,
+    2505,
+    2699
+  ],
+  "script_checks": "12 caption segments match source text and voice windows; canonical PNGs unchanged",
+  "preview": "Studio Act02Demo playback verified; no error overlay",
+  "act01_preservation_files_verified": 36,
+  "handoffs": {
+    "Scene04_to_Scene05": "Same parchment stage; sampled RGB differences <= 3/255, no visible flash.",
+    "Scene05_to_Scene06": "Shared PastDesk and continuous bagDropY(time); negative Scene06 time in Scene05 tail.",
+    "Scene06_to_Scene07": "Present-day listening reaction followed by window-side two-shot; same Puppet/room assets.",
+    "Scene07_to_Scene08": "Expanded water-drop covers both boundary frames; sampled RGB differences <= 3/255.",
+    "Scene08_to_Scene09": "Wooden sign rectangle gently enlarges; Scene09 is not implemented in this task."
+  },
+  "output": "red-paper-reborn/out/act02/Act02Demo.mp4"
+}

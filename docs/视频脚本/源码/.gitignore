@@ -1,0 +1,5 @@
+__pycache__/
+render/
+*.pdf
+*.png
+*.jpg

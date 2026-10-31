@@ -1,0 +1,64 @@
+{
+  "word": "推进生态文明建设_余村故事线视频脚本.docx",
+  "word_sha256": "f6b7632b7933e99654521744bf9b25a62343128e435e68e666c9922b9ab0c467",
+  "word_bytes": 94833,
+  "source_files": [
+    {
+      "file": "build.py",
+      "source_sha256": "7088d719711d25e896840b9d2ef83254b81579ecb230520d3a31cd63be86aca1",
+      "repository_sha256": "b6be50025c9d89f59b70af9356e9dc92b39ae26227a64ff7776bd58563a84ef9",
+      "portable_path_adjusted": false,
+      "line_endings_normalized": true
+    },
+    {
+      "file": "content.py",
+      "source_sha256": "69cc6d116198c0c20334f2aa50d0b310d62942c3b0c7f25688b9fc968a814295",
+      "repository_sha256": "688866f756e0d1efdaa199886a2fefa8710c1535729949a07c51ef9d26ade2b0",
+      "portable_path_adjusted": true,
+      "line_endings_normalized": true
+    },
+    {
+      "file": "pagination.py",
+      "source_sha256": "d3eff9b2eb9b15dc96b806aafb8c5f40b908e7df9214d4a3abf790a756ff749a",
+      "repository_sha256": "8958a505e4da387dd41b4adf242045a1e26b8c3530552ae3136c1112a88b201b",
+      "portable_path_adjusted": false,
+      "line_endings_normalized": true
+    },
+    {
+      "file": "refine.py",
+      "source_sha256": "40084c11f7b8609d352cdf53287fe0b49d0fa6c2fc88017de650255bee940d68",
+      "repository_sha256": "21974295dc6d2fbcdfd059e44f2c5e782e7707eeb9f1060a0e20f292298e715a",
+      "portable_path_adjusted": false,
+      "line_endings_normalized": true
+    },
+    {
+      "file": "render_windows.py",
+      "source_sha256": "5307a86133a53ec108da43e4e9b35c4eee314e46eac31cf3c7d81fe0e2db5a1b",
+      "repository_sha256": "d35557b809f98c74c4df926bb4e66cfa7c582e4e9c3d213b25584f0c166aed93",
+      "portable_path_adjusted": true,
+      "line_endings_normalized": true
+    },
+    {
+      "file": "shots.json",
+      "source_sha256": "adee51a205912ed48fa01b885a903ce5fee8a97074f694ac6c6b85ae4f66ffe4",
+      "repository_sha256": "74f9db6c09f1bd0719146a4105122315a95eb139d563380047725dedc3362318",
+      "portable_path_adjusted": false,
+      "line_endings_normalized": true
+    },
+    {
+      "file": "verification.json",
+      "source_sha256": "8d191823201ca6cee3b4133338538c271b97737d3e96b8f15c881c71f8672577",
+      "repository_sha256": "533198aff49cde41ec699c4871b05f00ff9db572e6bb65a1c25f99959e2e8dfb",
+      "portable_path_adjusted": true,
+      "line_endings_normalized": true
+    },
+    {
+      "file": "word-pages.json",
+      "source_sha256": "8b9c15d800dfbc57e6416cd69359d8dbbe9fd4efbb2650cb828522285de1f309",
+      "repository_sha256": "bd32df3a7d21b491d433a25f9fa2f902cf086c1cf89eb58b7b06e52052a950e5",
+      "portable_path_adjusted": false,
+      "line_endings_normalized": true
+    }
+  ],
+  "original_source_folder_left_untouched": true
+}

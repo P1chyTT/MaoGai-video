@@ -1,0 +1,87 @@
+{
+  "Scene21": [
+    {
+      "text": "两张图之间，是一次次选择，",
+      "startMs": 600,
+      "endMs": 3700,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "也是许多人日复一日的",
+      "startMs": 3700,
+      "endMs": 7200,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "守护与创造。",
+      "startMs": 7200,
+      "endMs": 11300,
+      "timestampMs": null,
+      "confidence": null
+    }
+  ],
+  "Scene22": [
+    {
+      "text": "从一个村庄望向更远，",
+      "startMs": 600,
+      "endMs": 4000,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "生态保护与发展相互促进的路，",
+      "startMs": 4000,
+      "endMs": 7500,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "还需要更多人一起走。",
+      "startMs": 7500,
+      "endMs": 11500,
+      "timestampMs": null,
+      "confidence": null
+    }
+  ],
+  "Scene23": [
+    {
+      "text": "推进生态文明建设，",
+      "startMs": 700,
+      "endMs": 3800,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "让生态、经济、社会效益相统一，",
+      "startMs": 3800,
+      "endMs": 7900,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "建设人与自然和谐共生的现代化。",
+      "startMs": 7900,
+      "endMs": 12000,
+      "timestampMs": null,
+      "confidence": null
+    }
+  ],
+  "Scene24": [
+    {
+      "text": "爷爷，明年还来这里拍。",
+      "startMs": 700,
+      "endMs": 4200,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "好，山河有约。",
+      "startMs": 4500,
+      "endMs": 6500,
+      "timestampMs": null,
+      "confidence": null
+    }
+  ]
+}

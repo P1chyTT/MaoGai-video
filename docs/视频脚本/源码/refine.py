@@ -1,0 +1,10 @@
+from pathlib import Path
+p=Path('.codex-yucun-script/build.py')
+s=p.read_text(encoding='utf-8-sig')
+s=s.replace("st=styles[name]; st.font.name='宋体'; st.font.color.rgb=RGBColor(0,0,0)","st=styles[name]; st.font.name='宋体'; st.font.color.rgb=RGBColor(0,0,0); st.font.italic=False")
+s=s.replace("head('冲突与回收',2)\np('旧图是贯穿道具：镜头01引出过去，04提出疑问，20两代合作对齐山脊，21对比变化，24收好旧图完成约定。工具包表现失去原生计的压力，手机则从追逐热度的工具转为记录劳动与倡导绿色生活的工具。')",'')
+s=s.replace('对白字幕与声音逐字一致，按“／”建议断行；画面标题字幕另见各镜。','对白字幕与声音逐字一致，按标点与语义断句；每镜另列画面文字，制作指令不作为字幕显示。')
+s=s.replace("            # Subtitle split suggestion at punctuation, maintaining all original wording.\n            chunks=re.findall(r'[^，。！？：；]+[，。！？：；]?',t)\n            p('字幕建议分句  '+'／'.join(chunks),size=9.5,after=5)","        p('画面文字  '+s['screen'],size=9.5,after=5)")
+s=s.replace('04:56.5前结束','04:53.5前结束')
+s=s.replace("doc.save(OUT)","# Remove template paragraph borders including the inherited title rule.\nfor root in (doc.element, doc.styles.element):\n    for border in list(root.iter(qn('w:pBdr'))):\n        border.getparent().remove(border)\ndoc.save(OUT)")
+p.write_text(s,encoding='utf-8')

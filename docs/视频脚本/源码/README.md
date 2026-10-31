@@ -1,0 +1,7 @@
+# 用户确认收录的剧本创作文件
+
+此目录是原本地创作目录的副本，原目录未移动或删除。content.py、build.py、refine.py及生成数据一并保留；Word是正式制作主稿，shots.json用于检索。来源记录包含原始与仓库副本哈希。
+
+便携化仅移除了个人电脑绝对路径：Word默认输出到上级视频脚本目录，可用SHANHE_SCRIPT_OUTPUT覆盖；render_windows.py为可选文档预览辅助，需要显式配置CODEX_DOC_RUNTIME和DOCX_RENDER_HELPER，不属于Remotion运行依赖。build.py需要python-docx。未在迁移过程中执行这些用户脚本或重新编造剧本，原有verification/word-pages记录是文档创作记录，不是新视频的验收。
+
+源码副本生成的render、临时Word和Python缓存不提交。

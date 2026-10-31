@@ -1,0 +1,119 @@
+{
+  "project": "山河有约",
+  "composition": "Act05Demo",
+  "scope": "Scene17–Scene20 only; local 0–60s / global 190–250s; no recorded voices",
+  "media": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1920,
+        "height": 1080,
+        "pix_fmt": "yuv420p",
+        "color_range": "tv",
+        "color_space": "bt709",
+        "r_frame_rate": "30/1",
+        "duration": "60.000000",
+        "nb_read_frames": "1800"
+      },
+      {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2,
+        "r_frame_rate": "0/0",
+        "duration": "60.011000",
+        "nb_read_frames": "2813"
+      }
+    ],
+    "format": {
+      "duration": "60.011000",
+      "size": "11650314"
+    }
+  },
+  "sha256": "ac38576942f077caa8bd0a2d6cdcd089da183ba1291fcf7b09cdc1c1a6e8caba",
+  "size_mib": 11.11,
+  "complete_video_and_audio_decode_passed": true,
+  "frame_scan": {
+    "frames": 1800,
+    "analysis_resolution": [
+      160,
+      90
+    ],
+    "black_threshold": "99% pixels below 16",
+    "white_threshold": "99% pixels above 248",
+    "black_frames": [],
+    "white_frames": [],
+    "mean_luma_range": [
+      151.04,
+      221.1
+    ]
+  },
+  "audio_peak_dbfs": -26.09,
+  "audio_rms_dbfs": -46.75,
+  "keyframe_indices": [
+    0,
+    225,
+    449,
+    450,
+    675,
+    899,
+    900,
+    1125,
+    1349,
+    1350,
+    1575,
+    1799
+  ],
+  "keyframe_count": 12,
+  "action_frame_count": 9,
+  "global_frame_indices": [
+    5700,
+    5925,
+    6149,
+    6150,
+    6375,
+    6599,
+    6600,
+    6825,
+    7049,
+    7050,
+    7275,
+    7499
+  ],
+  "script_checks": "16 caption segments match source text and original recording windows; 162 prior-act files unchanged",
+  "preview": "Studio Act05Demo actual play-button playback advanced from frame 300 to 510; no error overlay",
+  "previous_acts_preservation_files_verified": 162,
+  "scene16_to_scene17_pixel_comparison": {
+    "same_source_components_and_geometry": true,
+    "mean_rgb_difference_0_255": 0.069521,
+    "maximum_channel_difference_0_255": 140,
+    "fraction_pixels_differing_by_more_than_8": 0.00224296
+  },
+  "handoffs": {
+    "Scene16_to_Scene17": "Freeze the previous final frame at 389, dissolve its phone route into the plan-book overview, no previous file modified.",
+    "Scene17_to_Scene18": "Existing phone shell rotated sideways; a 169 by 95.0625 image reaches scale 1920/169 and reveals the same LaborView at t=0.",
+    "Scene18_to_Scene19": "Same product take contracts to thumbnail at translate(1160 672), scale .18, followed by the editing desk.",
+    "Scene19_to_Scene20": "Preview landscape expands to the same AlignedLandscape at 0 seconds.",
+    "Scene20_to_Scene21": "OldPrint frame (510,400,500,260) rotates around hand (548,562); camera .94 centered at (960,550); Scene21 not implemented."
+  },
+  "readability": {
+    "tip_fully_visible_from_seconds": [
+      4.7,
+      6.55,
+      8.4
+    ],
+    "preview_transition_starts": 14,
+    "minimum_reading_seconds": 5.6
+  },
+  "arm_motion_scene20": {
+    "elder_front_forearm_delta_degrees": 0,
+    "xiaohe_front_forearm_delta_degrees": 10,
+    "xiaohe_upper_arm_delta_degrees": 8
+  },
+  "output": "red-paper-reborn/out/act05/Act05Demo.mp4"
+}

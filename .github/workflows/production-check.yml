@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
     inputs:
       render:
-        description: Render the 36-second demo and keyframes
+        description: Render the 5-second initialization check (not the full film)
         type: boolean
         default: false
 
@@ -33,6 +33,7 @@ jobs:
           cache-dependency-path: red-paper-reborn/pnpm-lock.yaml
       - run: pnpm install --frozen-lockfile --config.node-linker=hoisted
       - run: pnpm run lint
+      - run: pnpm run check:project
       - run: pnpm run check:portable
 
   render-demo:
@@ -59,8 +60,8 @@ jobs:
       - run: pnpm run render
       - uses: actions/upload-artifact@v4
         with:
-          name: act01-demo-and-keyframes
+          name: shanhe-initialization-check
           path: |
-            red-paper-reborn/out/Act01Demo.mp4
-            red-paper-reborn/out/keyframes/*.png
+            red-paper-reborn/out/initialization/TechnicalPreview.mp4
+            red-paper-reborn/out/initialization/keyframes/*.png
           retention-days: 14

@@ -1,0 +1,87 @@
+{
+  "Scene01": [
+    {
+      "text": "那时候，我们觉得，",
+      "startMs": 1000,
+      "endMs": 4100,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "山里的石头就是财富。",
+      "startMs": 4100,
+      "endMs": 9000,
+      "timestampMs": null,
+      "confidence": null
+    }
+  ],
+  "Scene02": [
+    {
+      "text": "矿上有活干，",
+      "startMs": 500,
+      "endMs": 2600,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "家里有了收入。",
+      "startMs": 2600,
+      "endMs": 4900,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "可灰尘，",
+      "startMs": 5100,
+      "endMs": 7000,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "也落进了日子里。",
+      "startMs": 7000,
+      "endMs": 9500,
+      "timestampMs": null,
+      "confidence": null
+    }
+  ],
+  "Scene03": [
+    {
+      "text": "这次返乡拍片，我想拍个热门。",
+      "startMs": 500,
+      "endMs": 3900,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "家乡发展，总得有产业、",
+      "startMs": 3900,
+      "endMs": 6700,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "有收入吧？",
+      "startMs": 6700,
+      "endMs": 9500,
+      "timestampMs": null,
+      "confidence": null
+    }
+  ],
+  "Scene04": [
+    {
+      "text": "既然能挣钱，后来为什么要关？",
+      "startMs": 400,
+      "endMs": 4900,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "挣钱之外，还有一本账。",
+      "startMs": 5200,
+      "endMs": 9500,
+      "timestampMs": null,
+      "confidence": null
+    }
+  ]
+}

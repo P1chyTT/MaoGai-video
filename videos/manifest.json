@@ -1,0 +1,193 @@
+{
+  "project": "山河有约",
+  "version": "Acts 01–06 visual demos",
+  "branch": "project/shanhe-youyue",
+  "total_seconds": 300,
+  "total_frames": 9000,
+  "completed_scenes": 24,
+  "planned_scenes": 24,
+  "recorded_voices": false,
+  "artifacts": [
+    {
+      "act": "act01",
+      "title": "山河旧貌",
+      "scenes": "Scene01–Scene04",
+      "duration_seconds": 40,
+      "frames": 1200,
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "codec": "h264",
+      "audio": "AAC stereo original non-vocal ambience",
+      "verification": "docs/act01/verification.json",
+      "files": [
+        {
+          "file": "videos/act01/Act01Demo.mp4",
+          "bytes": 8746084,
+          "sha256": "d554fd80d62b5594f3a1107eaa1c320d1edadd45bd53e14eb79254486c677d0e"
+        },
+        {
+          "file": "videos/act01/Act01Demo.srt",
+          "bytes": 672,
+          "sha256": "d5071ade4af1355177677e97d8c92da0aff8d0017e715f1ac7ddbea8ec0dc03e"
+        }
+      ]
+    },
+    {
+      "act": "act02",
+      "title": "发展的抉择",
+      "scenes": "Scene05–Scene08",
+      "duration_seconds": 50,
+      "frames": 1500,
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "codec": "h264",
+      "audio": "AAC stereo original non-vocal ambience",
+      "verification": "docs/act02/verification.json",
+      "files": [
+        {
+          "file": "videos/act02/Act02Demo-global.srt",
+          "bytes": 782,
+          "sha256": "3b7bce08b33085dc32410073f187646ab092ae5ad59ffad6142683ff80b97b9c"
+        },
+        {
+          "file": "videos/act02/Act02Demo.mp4",
+          "bytes": 10204776,
+          "sha256": "0b0442a19632071c0dd5fd5fe3ba4dbe0f020b239a1d86545dd5d329f75fd785"
+        },
+        {
+          "file": "videos/act02/Act02Demo.srt",
+          "bytes": 782,
+          "sha256": "1595ad5ea4a9ded823849e2ed5156db193bbeaa4f2a24b4cf7b85570dd402d72"
+        }
+      ]
+    },
+    {
+      "act": "act03",
+      "title": "理念的转变",
+      "scenes": "Scene09–Scene12",
+      "duration_seconds": 50,
+      "frames": 1500,
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "codec": "h264",
+      "audio": "AAC stereo original non-vocal ambience",
+      "verification": "docs/act03/verification.json",
+      "files": [
+        {
+          "file": "videos/act03/Act03Demo-global.srt",
+          "bytes": 829,
+          "sha256": "a45bc298127deda2ddb60a73c4919ea928503cdc0eefb99f1739c733a28d2667"
+        },
+        {
+          "file": "videos/act03/Act03Demo.mp4",
+          "bytes": 8367096,
+          "sha256": "2be59a7a2f640f224124b8fae0cd105e4eed8af0a4cb693aaf3412fb14a453a9"
+        },
+        {
+          "file": "videos/act03/Act03Demo.srt",
+          "bytes": 829,
+          "sha256": "81d00be51127c7e95af3154b00d07d2f1841c480acf0bf7352f21900e27f38f7"
+        }
+      ]
+    },
+    {
+      "act": "act04",
+      "title": "绿水青山变成金山银山",
+      "scenes": "Scene13–Scene16",
+      "duration_seconds": 50,
+      "frames": 1500,
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "codec": "h264",
+      "audio": "AAC stereo original non-vocal ambience",
+      "verification": "docs/act04/verification.json",
+      "files": [
+        {
+          "file": "videos/act04/Act04Demo.mp4",
+          "bytes": 10199480,
+          "sha256": "1244640d9fcb9c5f694dd29dd8b43919a560fd40a91f2fd068656987a99f345e"
+        },
+        {
+          "file": "videos/act04/Act04Demo.srt",
+          "bytes": 776,
+          "sha256": "85d8b14c0a7106c0d17a281f58c2443df673798c0d3256f2844a563cca8d5536"
+        },
+        {
+          "file": "videos/act04/Act04Demo-global.srt",
+          "bytes": 776,
+          "sha256": "220894b01afecb5df0eea2100aafe7ab5dcbde203772cb084785c4470aa97839"
+        }
+      ]
+    },
+    {
+      "act": "act05",
+      "title": "新时代的接力",
+      "scenes": "Scene17–Scene20",
+      "duration_seconds": 60,
+      "frames": 1800,
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "codec": "h264",
+      "audio": "AAC stereo original non-vocal ambience",
+      "verification": "docs/act05/verification.json",
+      "files": [
+        {
+          "file": "videos/act05/Act05Demo.mp4",
+          "bytes": 11650314,
+          "sha256": "ac38576942f077caa8bd0a2d6cdcd089da183ba1291fcf7b09cdc1c1a6e8caba"
+        },
+        {
+          "file": "videos/act05/Act05Demo.srt",
+          "bytes": 1009,
+          "sha256": "4102c4a0a95301dee7260d381340a2f7e0b3a1c835a0250771d9c0ad26df2eb5"
+        },
+        {
+          "file": "videos/act05/Act05Demo-global.srt",
+          "bytes": 1009,
+          "sha256": "4390ceac8ca5e67a22a39cd9ca55f440c11feea5fb2eda8221440b73209ccf4f"
+        }
+      ]
+    },
+    {
+      "act": "act06",
+      "title": "山河有约",
+      "scenes": "Scene21–Scene24",
+      "duration_seconds": 50,
+      "frames": 1500,
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "codec": "h264",
+      "audio": "AAC stereo original non-vocal ambience",
+      "verification": "docs/act06/verification.json",
+      "files": [
+        {
+          "file": "videos/act06/Act06Demo.mp4",
+          "bytes": 7586748,
+          "sha256": "80547f78f3f1de139d7f7f29a6fd1669e5a97b63b46c394210e10852491e8ad3"
+        },
+        {
+          "file": "videos/act06/Act06Demo.srt",
+          "bytes": 735,
+          "sha256": "f7b6167fd87e53baae0459816403e5bbfb9623885375a24d50777f7e5cb5001d"
+        },
+        {
+          "file": "videos/act06/Act06Demo-global.srt",
+          "bytes": 735,
+          "sha256": "01eebf7750c0cfbc2802b4c4240ea5ce52b5288abc4aefdc1f91a190c693c57d"
+        }
+      ]
+    }
+  ],
+  "full_film_preview": {
+    "composition": "FullFilmPreview",
+    "duration_seconds": 300,
+    "frames": 9000,
+    "single_300_second_mp4_exported": false
+  }
+}
