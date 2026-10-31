@@ -29,5 +29,8 @@
   ],
   "lfs": "git-lfs/3.7.1 available; no LFS rules/quota changes needed; no new final film",
   "main_branch_unchanged": true,
-  "user_confirmed_creation_sources_collected": true
+  "user_confirmed_creation_sources_collected": true,
+  "pull_request": "https://github.com/P1chyTT/MaoGai-video/pull/3",
+  "pull_request_merged": false,
+  "new_branch_pushed": true
 }
