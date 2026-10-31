@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-31",
+  "branch": "project/shanhe-youyue",
+  "old_master": "4159effcab0098cc86aff45e818d5c12bd167c6f",
+  "installation": "pnpm 11.25.0 frozen-lockfile, hoisted; existing versions retained",
+  "lint": "passed",
+  "typescript": "passed",
+  "project_integrity": "passed: 24 planned shots / 300s / 9000 frames",
+  "portable_render": "passed: 0/75/149, distributed Source Han Serif",
+  "studio": "TechnicalPreview opened; error overlay null",
+  "technical_video": {
+    "path": "red-paper-reborn/out/initialization/TechnicalPreview.mp4",
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "seconds": 5,
+    "decoded_frames": 150,
+    "bytes": 431763,
+    "sha256": "cd64343ab35b6b2a0c64ab71eb3c54b6bba470245bee69f7c3b6149cfbf06c25"
+  },
+  "formal_shots_complete": 0,
+  "formal_shots_planned": 24,
+  "missing_formal_assets": [
+    "laozhou",
+    "xiaohe",
+    "crowd",
+    "formal scenes",
+    "voiceover/music/sfx"
+  ],
+  "lfs": "git-lfs/3.7.1 available; no LFS rules/quota changes needed; no new final film",
+  "main_branch_unchanged": true,
+  "user_confirmed_creation_sources_collected": true
+}
