@@ -1,0 +1,97 @@
+{
+  "project": "山河有约",
+  "version": "Acts 01–03 visual demos",
+  "branch": "project/shanhe-youyue",
+  "total_seconds": 140,
+  "total_frames": 4200,
+  "completed_scenes": 12,
+  "planned_scenes": 24,
+  "recorded_voices": false,
+  "artifacts": [
+    {
+      "act": "act01",
+      "title": "山河旧貌",
+      "scenes": "Scene01–Scene04",
+      "duration_seconds": 40,
+      "frames": 1200,
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "codec": "h264",
+      "audio": "AAC stereo original non-vocal ambience",
+      "verification": "docs/act01/verification.json",
+      "files": [
+        {
+          "file": "videos/act01/Act01Demo.mp4",
+          "bytes": 8746084,
+          "sha256": "d554fd80d62b5594f3a1107eaa1c320d1edadd45bd53e14eb79254486c677d0e"
+        },
+        {
+          "file": "videos/act01/Act01Demo.srt",
+          "bytes": 672,
+          "sha256": "d5071ade4af1355177677e97d8c92da0aff8d0017e715f1ac7ddbea8ec0dc03e"
+        }
+      ]
+    },
+    {
+      "act": "act02",
+      "title": "发展的抉择",
+      "scenes": "Scene05–Scene08",
+      "duration_seconds": 50,
+      "frames": 1500,
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "codec": "h264",
+      "audio": "AAC stereo original non-vocal ambience",
+      "verification": "docs/act02/verification.json",
+      "files": [
+        {
+          "file": "videos/act02/Act02Demo-global.srt",
+          "bytes": 782,
+          "sha256": "3b7bce08b33085dc32410073f187646ab092ae5ad59ffad6142683ff80b97b9c"
+        },
+        {
+          "file": "videos/act02/Act02Demo.mp4",
+          "bytes": 10204776,
+          "sha256": "0b0442a19632071c0dd5fd5fe3ba4dbe0f020b239a1d86545dd5d329f75fd785"
+        },
+        {
+          "file": "videos/act02/Act02Demo.srt",
+          "bytes": 782,
+          "sha256": "1595ad5ea4a9ded823849e2ed5156db193bbeaa4f2a24b4cf7b85570dd402d72"
+        }
+      ]
+    },
+    {
+      "act": "act03",
+      "title": "理念的转变",
+      "scenes": "Scene09–Scene12",
+      "duration_seconds": 50,
+      "frames": 1500,
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "codec": "h264",
+      "audio": "AAC stereo original non-vocal ambience",
+      "verification": "docs/act03/verification.json",
+      "files": [
+        {
+          "file": "videos/act03/Act03Demo-global.srt",
+          "bytes": 829,
+          "sha256": "a45bc298127deda2ddb60a73c4919ea928503cdc0eefb99f1739c733a28d2667"
+        },
+        {
+          "file": "videos/act03/Act03Demo.mp4",
+          "bytes": 8367096,
+          "sha256": "2be59a7a2f640f224124b8fae0cd105e4eed8af0a4cb693aaf3412fb14a453a9"
+        },
+        {
+          "file": "videos/act03/Act03Demo.srt",
+          "bytes": 829,
+          "sha256": "81d00be51127c7e95af3154b00d07d2f1841c480acf0bf7352f21900e27f38f7"
+        }
+      ]
+    }
+  ]
+}

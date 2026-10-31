@@ -1,0 +1,101 @@
+{
+  "Scene09": [
+    {
+      "text": "二〇〇五年八月十五日，",
+      "startMs": 400,
+      "endMs": 3800,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "时任浙江省委书记习近平",
+      "startMs": 3800,
+      "endMs": 7600,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "来到余村考察。",
+      "startMs": 7600,
+      "endMs": 11600,
+      "timestampMs": null,
+      "confidence": null
+    }
+  ],
+  "Scene10": [
+    {
+      "text": "他肯定余村关停矿山、",
+      "startMs": 500,
+      "endMs": 3500,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "探索转型的做法，",
+      "startMs": 3500,
+      "endMs": 6300,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "并首次提出：",
+      "startMs": 6300,
+      "endMs": 8200,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "绿水青山就是金山银山。",
+      "startMs": 8200,
+      "endMs": 12400,
+      "timestampMs": null,
+      "confidence": null
+    }
+  ],
+  "Scene11": [
+    {
+      "text": "我懂了，保护好山水，",
+      "startMs": 600,
+      "endMs": 3500,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "还要找到合适的产业，",
+      "startMs": 3500,
+      "endMs": 7500,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "日子才能越过越稳。",
+      "startMs": 7500,
+      "endMs": 11300,
+      "timestampMs": null,
+      "confidence": null
+    }
+  ],
+  "Scene12": [
+    {
+      "text": "方向有了，功夫还要下在每天。",
+      "startMs": 600,
+      "endMs": 4500,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "治理污染、修复生态，",
+      "startMs": 4500,
+      "endMs": 8500,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "让山水一点点恢复生机。",
+      "startMs": 8500,
+      "endMs": 12400,
+      "timestampMs": null,
+      "confidence": null
+    }
+  ]
+}

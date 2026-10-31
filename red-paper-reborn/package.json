@@ -1,8 +1,11 @@
 {
-  "name": "red-paper-reborn",
+  "name": "shanhe-youyue",
   "version": "1.0.0",
-  "description": "红纸新生 · 第一幕皮影戏 MG 动画 Demo",
-  "repository": {},
+  "description": "山河有约——从绿水青山到金山银山｜生态文明建设MG动画工程",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/P1chyTT/MaoGai-video.git"
+  },
   "license": "UNLICENSED",
   "engines": {
     "node": "^20.19.0 || ^22.13.0 || >=24"
@@ -26,18 +29,19 @@
     "dev": "remotion studio src/index.ts --no-open",
     "render": "node scripts/render.mjs video",
     "keyframes": "node scripts/render.mjs frames",
+    "render:act01": "node scripts/render-act01.mjs video",
+    "keyframes:act01": "node scripts/render-act01.mjs frames",
+    "check:act01": "node scripts/verify-act01.mjs --write-srt",
     "render:act02": "node scripts/render-act02.mjs video",
     "keyframes:act02": "node scripts/render-act02.mjs frames",
+    "check:act02": "node scripts/verify-act02.mjs --write-srt",
     "render:act03": "node scripts/render-act03.mjs video",
     "keyframes:act03": "node scripts/render-act03.mjs frames",
-    "render:act04": "node scripts/render-act04.mjs video",
-    "keyframes:act04": "node scripts/render-act04.mjs frames",
-    "render:act06": "node scripts/render-act06.mjs video",
-    "keyframes:act06": "node scripts/render-act06.mjs frames",
+    "check:act03": "node scripts/verify-act03.mjs --write-srt",
     "typecheck": "tsc --noEmit",
+    "lint": "eslint src && tsc --noEmit",
+    "check:project": "node scripts/verify-project.mjs",
     "check:portable": "node scripts/check-portable.mjs",
-    "build": "remotion bundle",
-    "upgrade": "remotion upgrade",
-    "lint": "eslint src && tsc"
+    "build": "remotion bundle"
   }
 }

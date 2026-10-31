@@ -1,0 +1,98 @@
+{
+  "project": "山河有约",
+  "composition": "Act03Demo",
+  "scope": "Scene09–Scene12 only; local 0–50s / global 90–140s; no recorded voices",
+  "media": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1920,
+        "height": 1080,
+        "pix_fmt": "yuv420p",
+        "color_range": "tv",
+        "color_space": "bt709",
+        "r_frame_rate": "30/1",
+        "duration": "50.000000",
+        "nb_read_frames": "1500"
+      },
+      {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2,
+        "r_frame_rate": "0/0",
+        "duration": "50.005000",
+        "nb_read_frames": "2344"
+      }
+    ],
+    "format": {
+      "duration": "50.005000",
+      "size": "8367096"
+    }
+  },
+  "sha256": "2be59a7a2f640f224124b8fae0cd105e4eed8af0a4cb693aaf3412fb14a453a9",
+  "size_mib": 7.98,
+  "complete_video_and_audio_decode_passed": true,
+  "frame_scan": {
+    "frames": 1500,
+    "analysis_resolution": [
+      160,
+      90
+    ],
+    "black_threshold": "99% pixels below 16",
+    "white_threshold": "99% pixels above 248",
+    "black_frames": [],
+    "white_frames": [],
+    "mean_luma_range": [
+      164.28,
+      222.3
+    ]
+  },
+  "audio_peak_dbfs": -23.21,
+  "audio_rms_dbfs": -46.42,
+  "keyframe_indices": [
+    0,
+    180,
+    359,
+    360,
+    555,
+    749,
+    750,
+    930,
+    1109,
+    1110,
+    1305,
+    1499
+  ],
+  "keyframe_count": 12,
+  "global_frame_indices": [
+    2700,
+    2880,
+    3059,
+    3060,
+    3255,
+    3449,
+    3450,
+    3630,
+    3809,
+    3810,
+    4005,
+    4199
+  ],
+  "script_checks": "13 caption segments match source text and voice windows; canonical PNGs unchanged",
+  "preview": "Studio Act03Demo playback verified; no error overlay",
+  "previous_acts_preservation_files_verified": 74,
+  "handoffs": {
+    "Scene08_to_Scene09": "FarmSign rectangle matches center (1248,490), scale 1.02; paper panel unfolds from the same rectangle.",
+    "Scene09_to_Scene10": "Shared DateCard contracts to (160,185); source header and outer panel fade away.",
+    "Scene10_to_Scene11": "Gold ridge morphs into shared Notebook line; the same cover occupies both boundary frames.",
+    "Scene11_to_Scene12": "Cup ripple fills frame with sky blue; circular reveal opens the restoration landscape.",
+    "Scene12_to_Scene13": "Shared RIDGE plus CREEK path and final 18px left drift are documented; Scene13 is not implemented."
+  },
+  "output": "red-paper-reborn/out/act03/Act03Demo.mp4"
+}

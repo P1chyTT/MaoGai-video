@@ -1,116 +1,124 @@
-# 《红纸新生》｜皮影戏 MG 动画协作仓库
+# 《山河有约》
 
-**最新进度（2026-10-25）：第六幕“真正的破圈”视觉成片完成，20秒／600帧、1920×1080、30fps。** 手工特写、小林认真拍摄、原青年体验剪纸、两代展示双凤新作，以及逐层展开的青绿山河画卷均已实现。含原文字幕、无音轨；600帧完整解码和末秒稳定停留检查通过。
+——从绿水青山到金山银山
 
-[第六幕MP4](red-paper-reborn/out/Act06Demo.mp4) · [12帧首中末总览](red-paper-reborn/out/act06/storyboard.jpg) · [动作细节](red-paper-reborn/out/act06/motion-details.jpg) · [制作与复用指南](red-paper-reborn/ACT06_GUIDE.md) · [核验记录](red-paper-reborn/out/act06/verification.json)。Studio选择 `Act06Demo` 或Scene21–24；运行 `npm run keyframes:act06`、`npm run render:act06`。
+以浙江省湖州市安吉县余村的发展转型为背景，讲述老村民老周与返乡大学生、孙女小禾通过交流、观察和实践理解生态保护与绿色发展的故事。老周、小禾及其家庭经历为艺术化虚构的综合创作，不冒充真实历史人物或亲历史料。制作方向为中国传统皮影戏、剪纸艺术与代码驱动的现代MG动画。
 
-**全片仍待整合：** 六幕均已有独立视觉视频；第四幕队友版和第五幕视频仍在各自PR中，第五幕源码未交接，一、二幕配音在独立分支、尚未合入。本次不改动这些分支。现有六幕顺接参考为261秒／4分21秒，不是已交付的完整混音版。第六幕20秒原文较密，正式配音前需复核时长，不能把静音字幕版作为自然语速配音验收。
+项目主题：推进生态文明建设。核心观点包括绿水青山就是金山银山、人与自然和谐共生、生态保护与经济发展协同、推动绿色发展，让绿色成为高质量发展的鲜明底色。
 
-**第四幕版本记录（2026-10-24）：已确认队友上传第四幕；本地制作的第四幕列为“备选版”。** 两个版本均保留，等待团队审片决定；队友的 `act04` 分支和合并请求未作修改。
+**第一至三幕Scene01—Scene12已完成视觉Demo并分别导出，共140秒；其余12镜待制作。** 当前为字幕与原创环境音版本，尚未录制人物对白。Word脚本及三张原始人物模板保留；正式全片仍为300秒、六幕／24镜、1920×1080、16:9、30fps、9000帧。5秒TechnicalPreview继续仅用于初始化检查，不计入正片。
 
-|第四幕版本|查看位置|当前状态|
-|---|---|---|
-|队友已上传版|[act04分支视频](https://github.com/P1chyTT/MaoGai-video/blob/act04/Act04Demo.mp4) · [合并请求 #1](https://github.com/P1chyTT/MaoGai-video/pull/1)|作者september-5，提交85afac9；尚未合入master|
-|你的版本（备选版）|[Act04Demo-Alternate.mp4](red-paper-reborn/out/Act04Demo-Alternate.mp4) · [首中末总览](red-paper-reborn/out/act04/storyboard.jpg) · [制作与复用说明](red-paper-reborn/ACT04_GUIDE.md)|50秒／1500帧、1080p／30fps；含字幕、无音轨，检查通过|
+## 项目资料
 
-备选版包含商品蒙太奇、三条评论、数据上涨与人物沉默的反差、重复印花与手工镂空凤凰对比。Studio的 `Act04Alternate` 文件夹收录备选版；为兼容既有链接，技术入口仍叫 `Act04Demo` 和 Scene13–16。`npm run render:act04` 只输出 `out/Act04Demo-Alternate.mp4`。[版本关系与接手说明](docs/ACT04_VERSIONS.md)。另已发现队友的 [act05分支](https://github.com/P1chyTT/MaoGai-video/tree/act05)／[合并请求 #2](https://github.com/P1chyTT/MaoGai-video/pull/2)，内容尚待团队审阅。
+- [第一幕制作交接与12张关键帧](docs/act01/README.md) · [媒体验证记录](docs/act01/verification.json)
+- [第二幕制作交接与12张关键帧](docs/act02/README.md) · [第二幕媒体验证](docs/act02/verification.json)
+- [第三幕制作报告与12张关键帧](docs/act03/README.md) · [第三幕媒体验证](docs/act03/verification.json)
+- [前三幕视频与字幕](videos/README.md) · [发布与接手说明](docs/发布与接手说明.md) · [文件校验清单](videos/manifest.json)
+- [主Word视频脚本](docs/视频脚本/推进生态文明建设_余村故事线视频脚本.docx) · [创作源码与分镜数据](docs/视频脚本/源码/README.md) · [来源哈希](docs/视频脚本/来源记录.json)
+- [人物设定与视觉规范](docs/人物设定与视觉规范.md) · [人物素材清单、来源及校验](red-paper-reborn/public/assets/characters/README.md)
+- [项目背景与制作规范](docs/项目背景与制作规范.md) · [史实与参考资料](docs/史实与参考资料.md)
+- [24镜分工与进度](docs/分镜与制作进度.md) · [迁移报告](docs/migration/迁移报告.md) · [清理清单](docs/migration/清理清单.md)
+- [团队接手](docs/HANDOFF.md) · [美术规范](red-paper-reborn/STYLE_GUIDE.md) · [进度](PROGRESS.md)
 
-**最新进度（2026-10-24）：第三幕 Scene08–12 已完成，60秒／1800帧，1920×1080、30fps。** 新增电脑合作邀请、商家入场、9.9元价格印章、小林劝说，以及奶奶以原图分层前臂放下剪刀的动作。完整导出、1800帧解码、字幕及三位人物素材校验通过；仍为带字幕的无声视觉Demo，待团队审片。
+## 前三幕视频
 
-[第三幕完整视频](red-paper-reborn/out/Act03Demo.mp4) · [关键帧总览](red-paper-reborn/out/act03/storyboard.jpg) · [制作与复用说明](red-paper-reborn/ACT03_GUIDE.md) · [核验记录](red-paper-reborn/out/act03/verification.json)
+|幕|镜头／时长|MP4|字幕|制作说明|
+|---|---|---|---|---|
+|一：山河旧貌|Scene01–04／40秒|[观看或下载](videos/act01/Act01Demo.mp4)|[SRT](videos/act01/Act01Demo.srt)|[交接及12帧](docs/act01/README.md)|
+|二：发展的抉择|Scene05–08／50秒|[观看或下载](videos/act02/Act02Demo.mp4)|[本幕](videos/act02/Act02Demo.srt)／[全片时间](videos/act02/Act02Demo-global.srt)|[交接及12帧](docs/act02/README.md)|
+|三：理念的转变|Scene09–12／50秒|[观看或下载](videos/act03/Act03Demo.mp4)|[本幕](videos/act03/Act03Demo.srt)／[全片时间](videos/act03/Act03Demo-global.srt)|[报告及12帧](docs/act03/README.md)|
 
-**第二幕里程碑（2026-10-23）：Scene04–07 动作增强版已完成，55秒／1650帧。** 小林增加点头、前倾、前臂手势和随手移动的手机，奶奶增加停剪后的抬头与回应。第一、二幕独立入口和既有输出继续保留。
+以上均为1080p／30fps、含原文字幕和原创环境音的视觉Demo，真人录音待制作。当前发布状态和队友运行步骤见[发布与接手说明](docs/发布与接手说明.md)；各幕制作记录保留当时状态，以本页和总进度为当前依据。
 
-[观看／下载第二幕动作增强版](red-paper-reborn/out/Act02Demo-Motion.mp4) · [第二幕制作与复用说明](red-paper-reborn/ACT02_GUIDE.md) · [前一版视频对照](red-paper-reborn/out/act02/Act02Demo-before-motion.mp4)
+## 人物素材库与后续动画制作规范
 
-![第二幕动作增强版关键帧](red-paper-reborn/out/act02/storyboard.jpg)
+2026-10-31已完整阅读正式Word的九部分、六幕24镜及全部声音定稿，并将三张用户提供的原始PNG按字节复制入库。三图均1086×1448，RGB无透明通道；保留宣纸背景、装饰、人物名称、原始纹理和比例，没有重绘、裁切、去背景或拆骨骼。
 
-以传统彩色皮影、剪纸和宣纸幕布为视觉标准，使用 React + TypeScript + Remotion 制作非遗剪纸文化传承短片。
+| 小禾 | 老周 | 余村村民群像 |
+| --- | --- | --- |
+| <img src="red-paper-reborn/public/assets/characters/xiaohe.png" alt="小禾完整人物模板" width="240"> | <img src="red-paper-reborn/public/assets/characters/laozhou.png" alt="老周完整人物模板" width="240"> | <img src="red-paper-reborn/public/assets/characters/yucun_villagers_group.png" alt="余村村民群像完整模板" width="240"> |
+| [xiaohe.png](red-paper-reborn/public/assets/characters/xiaohe.png) · 2.72 MiB | [laozhou.png](red-paper-reborn/public/assets/characters/laozhou.png) · 2.65 MiB | [yucun_villagers_group.png](red-paper-reborn/public/assets/characters/yucun_villagers_group.png) · 2.90 MiB |
 
-**第一幕基线（2026-10-21）：前三镜视觉 Demo 已完成；全片尚未完成。** 第一幕样片长36秒、1920×1080、30 fps、1080帧，含对白字幕，暂无配音、音效和配乐。该版本可供分镜、美术、动画和声音成员接续制作，视觉规范待团队审阅确认。
+以上文件均位于 `red-paper-reborn/public/assets/characters/`，不在仓库根部重复建库。群像保留三位成人的整体参考属性，没有拆成三个独立角色。**当前版本为人物视觉设定模板，正式骨骼动画使用前可能需要进一步分层。**
 
-![第一幕九帧总览](red-paper-reborn/out/storyboard.jpg)
+后续所有镜头必须先检查[人物设定与视觉规范](docs/人物设定与视觉规范.md)、素材库和对应Word分镜，统一引用此库，禁止为了某个镜头重新设计小禾或老周。原图不可覆盖；动作、朝向、脚本需要的道具和原风格内表情应在后续衍生文件中处理，不能拉伸整张PNG假装弯臂。
 
-## 先看这些
+脚本与模板的差异已列明：小禾在剧情中使用手机、帆布包，原图是相机、棕色双肩包；老周现图戴帽扶拐杖，但各镜帽子状态按脚本，不能据拐杖编造经历。原始模板没有中年版、儿童或独立关节图层；前两幕采用的SVG衍生实现与限制见下文及各幕交接。早期初始化文档的“人物待设计”是当时状态，当前人物参考进度以本节及人物规范为准；正式字幕与安全区以Word第七部分为准。
 
-|内容|位置|
-|---|---|
-|第六幕20秒最终幕视觉成片|[视频](red-paper-reborn/out/Act06Demo.mp4) · [24张高清关键帧](red-paper-reborn/out/act06/keyframes) · [制作指南](red-paper-reborn/ACT06_GUIDE.md)|
-|第四幕（备选版）完整交付|[50秒视频](red-paper-reborn/out/Act04Demo-Alternate.mp4) · [23张关键帧](red-paper-reborn/out/act04/keyframes) · [核验记录](red-paper-reborn/out/act04/verification.json)|
-|60秒第三幕完整样片|[观看／下载 Act03Demo.mp4](red-paper-reborn/out/Act03Demo.mp4)|
-|第三幕25张关键帧与动作总览|[首／中／末总览](red-paper-reborn/out/act03/storyboard.jpg) · [动作细节](red-paper-reborn/out/act03/motion-details.jpg) · [高清帧图](red-paper-reborn/out/act03/keyframes)|
-|第三幕规范、接口与验证|[制作与复用说明](red-paper-reborn/ACT03_GUIDE.md) · [核验记录](red-paper-reborn/out/act03/verification.json)|
-|55秒第二幕动作增强版|[观看／下载 Act02Demo-Motion.mp4](red-paper-reborn/out/Act02Demo-Motion.mp4)|
-|第二幕关键帧与参数核验|[关键帧](red-paper-reborn/out/act02/keyframes) · [检查记录](red-paper-reborn/out/act02/verification.json)|
-|36秒 MP4 样片|[观看／下载 Act01Demo.mp4](red-paper-reborn/out/Act01Demo.mp4)|
-|三个镜头首、中、末帧|[关键帧目录](red-paper-reborn/out/keyframes)|
-|实际输出与检查结果|[QA_REPORT](red-paper-reborn/QA_REPORT.md) · [参数记录](red-paper-reborn/out/verification.json)|
-|项目进度、已知限制、待办|[PROGRESS](PROGRESS.md)|
-|配色、比例、纹理、阴影、机位、组件接口|[STYLE_GUIDE](red-paper-reborn/STYLE_GUIDE.md)|
-|队友安装、预览、导出、接手流程|[接手指南](docs/HANDOFF.md)|
-|分镜范围与后续任务|[制作分工建议](docs/PRODUCTION_PLAN.md)|
-|完整故事脚本原稿|[在线阅读](docs/script/SCRIPT.md) · [Word原稿](docs/script/视频脚本_原稿.docx)|
-|提交与验收规范|[CONTRIBUTING](CONTRIBUTING.md)|
+人物归档阶段保留了三张完整原图，并核对正式Word与桌面原稿一致。第一幕现已按本次允许的SVG复刻方式建立可动衍生人物：小禾及老周现实／中年版。它们保留模板识别，不是原PNG的逐像素拆层；细节精修和真人配音仍待后续审定，详见第一幕交接。
 
-## 在新电脑上运行
+第二幕继续引用这些人物、老屋与字幕组件，补充依据群像板图的三类简化村民、工作道具及治理／农家乐场景。第三幕继续复用上述内容，新增历史资料、笔记修改与持续修复场景。全片目前12／24镜完成视觉Demo，各幕交接包含动作接口、配音窗口和下一幕接镜位置。
 
-需要 Node.js 20.19+、22.13+ 或24+，首次安装和首次下载渲染浏览器需要联网。
+## 旧项目与分支
 
-```sh
-git clone https://github.com/P1chyTT/MaoGai-video.git
-cd MaoGai-video/red-paper-reborn
-npm install
-npm run dev
-```
+旧《红纸新生》已在[归档分支](https://github.com/P1chyTT/MaoGai-video/tree/archive/hongzhi-xinsheng)及[版本标签](https://github.com/P1chyTT/MaoGai-video/tree/hongzhi-xinsheng-final)保存；队友后续配音和第五幕工程另见[协作快照](https://github.com/P1chyTT/MaoGai-video/tree/archive/hongzhi-xinsheng-collaboration)。第四、第五幕还有各自归档，详见迁移报告。
 
-打开终端显示的本地地址，选择 **Act01Demo**、**Act02Demo**、**Act03Demo** 或 **Act06Demo**；第四幕备选版在 **Act04Alternate → Act04Demo**。独立镜头为Scene01–16和Scene21–24；Scene17–20源码尚未交接，不存在对应Studio入口。
+新项目开发分支为 [project/shanhe-youyue](https://github.com/P1chyTT/MaoGai-video/tree/project/shanhe-youyue)，迁移审阅见 [PR #3](https://github.com/P1chyTT/MaoGai-video/pull/3)。原默认分支 `master` 保持原样，只有经用户确认合并迁移PR后才切换项目首页。本次不删除历史、不强推、不合并旧成员分支。
 
-```sh
-npm run lint       # 代码规范 + TypeScript
-npm run keyframes  # 首／中／末帧与凤凰完成帧
-npm run render     # 输出 out/Act01Demo.mp4
-npm run keyframes:act02  # 第二幕关键帧
-npm run render:act02     # 输出 out/Act02Demo.mp4
-npm run keyframes:act03  # 第三幕25张关键帧
-npm run render:act03     # 输出 out/Act03Demo.mp4
-npm run keyframes:act04  # 第四幕备选版23张关键帧
-npm run render:act04     # 输出 out/Act04Demo-Alternate.mp4
-npm run keyframes:act06  # 第六幕24张关键帧
-npm run render:act06     # 输出 out/Act06Demo.mp4
-```
+## 技术与目录
 
-已有依赖的 Windows 电脑也可运行工程内 `preview.cmd`、`render-demo.cmd`（后者导出第一幕）。第一幕渲染使用3101端口，第二幕使用3103端口，第三幕使用3106端口，第四幕备选版使用3107端口，第六幕使用3108端口，与Studio分开；运行前保证相应端口可用。
-
-## 工程结构
+沿用React 19.2.3、TypeScript 5.9.3、Remotion 4.0.537、SVG与透明PNG技术。保留锁定依赖，不新增付费生成接口。`red-paper-reborn/`是保留的历史工程路径，包名与所有当前入口已经改为山河有约，保留路径是为了减少CI和渲染脚本的迁移风险。
 
 ```text
+docs/
+  视频脚本/                 # 主稿、已确认收录的创作文件及来源
+  人物设定与视觉规范.md      # 爷孙关系、24镜人物需求、模板差异及引用约束
+  项目背景与制作规范.md
+  史实与参考资料.md
+  分镜与制作进度.md
+  migration/               # 备份、清理清单、迁移记录
 red-paper-reborn/
-  src/
-    Act01Demo.tsx           # 240 + 450 + 390 帧的连续时间线
-    Act02Demo.tsx           # 360 + 420 + 420 + 450 帧的第二幕
-    Act03Demo.tsx           # 270 + 450 + 360 + 300 + 420 帧的第三幕
-    Act04Demo.tsx           # 第四幕备选版，300 + 360 + 420 + 420 帧
-    Act06Demo.tsx           # 第六幕，120 + 90 + 150 + 240 帧
-    Root.tsx                # 总片及独立镜头注册
-    scenes/                 # Scene01–16及21–24；Scene13–16为第四幕备选版
-    act06/                  # 手艺特写、青年体验、新剪纸与片尾山河画卷
-    act04/                  # 备选版工作桌、商品蒙太奇、反馈屏幕、工艺对比
-    act03/                  # 第三幕编排、电脑桌、商家、商业道具与字幕
-    act02/                  # 第二幕动作参数、小林、手机和字幕
-    shared/                 # 舞台、房间、原图人物、剪刀、凤凰、字幕
-  public/assets/
-    characters/             # 四位原始角色PNG及校验清单
-    backgrounds/            # 固定宣纸纹理
-    fonts/                  # 可分发宋体与许可
-  scripts/                  # 渲染、关键帧、输出核验
-  out/                      # 本里程碑样片、关键帧、检查数据
-docs/                       # 接手与分工说明
+  src/shared/              # 宣纸舞台、帧缓动、字体、字幕
+  src/components/          # 镜头、分层山水、独立主题条
+  src/scenes/act01–act06/   # act01–act03共十二镜已实现，其余待制作
+  src/compositions/        # Act01Demo、Act02Demo、Act03Demo及TechnicalPreview
+  src/components/act01/    # 共享皮影人物、矿山、窗桌、道具
+  src/components/act02/    # 村民、工具包、纸带、溪岸与农家乐道具
+  src/components/act03/    # 历史资料、笔记、推杯与分区修复
+  public/assets/           # 新角色、矿山/村庄/山水、竹林/河流等目录
+    characters/            # xiaohe.png、laozhou.png、yucun_villagers_group.png
+  scripts/                 # 导出和完整性检查
+  out/                     # 本机生成，全部忽略
 ```
 
-第一幕只使用奶奶，四位角色素材已保留。人物未重画；本版为轻微头部动作、坐姿裁切和独立剪刀，没有完整手臂骨骼。凤凰为代码编写的SVG，纹样和展开时序可分别修改。
+## 安装、预览和导出检查
 
-请先阅读美术规范再制作下一镜。后续镜头复用共享房间和世界坐标；所有动作按帧驱动。原始脚本中的整幕时长与本次36秒样片范围不完全相同，后续总片时间线需在分镜定稿后确认，不直接沿用旧时码。
+Node.js 22.13+或24+。在新电脑上：
 
-## 仓库收录范围
+```sh
+git clone --branch project/shanhe-youyue https://github.com/P1chyTT/MaoGai-video.git
+cd MaoGai-video/red-paper-reborn
+pnpm install --frozen-lockfile --config.node-linker=hoisted
+pnpm run dev
+```
 
-保留源代码、依赖锁定文件、角色／纹理、字体许可、MP4、关键帧和协作说明。依赖目录、浏览器缓存、临时渲染包、本机路径和本地交付ZIP不提交。工程及用户提供的角色素材未另行授予开源使用许可；字体按其随附许可使用。
+也可使用 `npm install`；仓库CI使用已锁定的pnpm流程。首次下载浏览器需要联网。
+
+```sh
+pnpm run lint
+pnpm run check:project
+pnpm run check:portable
+pnpm run check:act01
+pnpm run keyframes:act01
+pnpm run render:act01
+pnpm run check:act02
+pnpm run keyframes:act02
+pnpm run render:act02
+pnpm run check:act03
+pnpm run keyframes:act03
+pnpm run render:act03
+pnpm run keyframes
+pnpm run render
+```
+
+Studio选择 `Act01Demo`：40秒／1200帧，地址通常为 `http://localhost:3000/Act01Demo`；四个独立镜头也可单独预览。正式第一幕使用 `render:act01`／`keyframes:act01`，输出 `out/act01/Act01Demo.mp4`、`Act01Demo.srt`和12张关键帧。
+
+第二幕选择`Act02Demo`：[预览入口](http://localhost:3000/Act02Demo)，50秒／1500帧。`render:act02`／`keyframes:act02`输出`out/act02/Act02Demo.mp4`及12张关键帧；`check:act02`生成独立幕和全片时间两份SRT。第二幕局部从0秒计时，全片组装时整幕从40秒进入，避免重复加偏移。正式配音尚待录制，镜头动作、复用接口与下幕接镜见第二幕交接。
+
+第三幕选择`Act03Demo`：[预览入口](http://localhost:3000/Act03Demo)，50秒／1500帧，四镜为12／13／12／13秒。`render:act03`／`keyframes:act03`输出`out/act03/Act03Demo.mp4`及12张关键帧；`check:act03`生成两种时间轴SRT。全片组装时整幕从90秒进入。历史资料与现实人物分层，没有领导人肖像、模仿声音或现场复原；原文、素材接口及第四幕接镜见第三幕制作报告。
+
+`TechnicalPreview`仍为5秒／150帧。旧的 `render`、`keyframes`及Windows `render-demo.cmd`继续只导出初始化检查，不会输出五分钟影片。`preview.cmd`继续启动Studio。
+
+参考资料以[核验清单](docs/史实与参考资料.md)中列出的国家发展改革委、国家林草局、文化和旅游部、生态环境部及央视等权威页面为准；发布年份与事件年份分别记录，不将虚构家庭故事当作史实。不引用未经核验的收入、游客或碳排放统计。
+
+五分钟整片尚未制作。前三幕发布版MP4与字幕已纳入本分支`videos/act01/`、`videos/act02/`、`videos/act03/`，校验见清单；代码、原创环境音及36张首中末帧一并交付。工程仍将重新渲染输出到本地`out/`，该目录及渲染缓存继续被Git忽略。后续更新视频先核对大小，超过50MiB时检查Git LFS配额／权限或使用GitHub Releases，不提交渲染缓存。
