@@ -25,9 +25,65 @@ import { Scene18 } from "./scenes/act05/Scene18";
 import { Scene19 } from "./scenes/act05/Scene19";
 import { Scene20 } from "./scenes/act05/Scene20";
 import { Act05Demo } from "./compositions/Act05Demo";
+import { Scene21 } from "./scenes/act06/Scene21";
+import { Scene22 } from "./scenes/act06/Scene22";
+import { Scene23 } from "./scenes/act06/Scene23";
+import { Scene24 } from "./scenes/act06/Scene24";
+import { Act06Demo } from "./compositions/Act06Demo";
 import "./style.css";
+import { FullFilmPreview } from "./compositions/FullFilmPreview";
 export const RemotionRoot = () => (
   <>
+    <Composition
+      id="FullFilmPreview"
+      component={FullFilmPreview}
+      durationInFrames={9000}
+      fps={30}
+      width={1920}
+      height={1080}
+    />
+    <Composition
+      id="Act06Demo"
+      component={Act06Demo}
+      durationInFrames={1500}
+      fps={30}
+      width={1920}
+      height={1080}
+    />
+    <Folder name="Act06-Scenes">
+      <Composition
+        id="Scene21"
+        component={Scene21}
+        durationInFrames={360}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="Scene22"
+        component={Scene22}
+        durationInFrames={360}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="Scene23"
+        component={Scene23}
+        durationInFrames={390}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="Scene24"
+        component={Scene24}
+        durationInFrames={390}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+    </Folder>
     <Composition
       id="Act05Demo"
       component={Act05Demo}

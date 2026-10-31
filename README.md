@@ -6,7 +6,7 @@
 
 项目主题：推进生态文明建设。核心观点包括绿水青山就是金山银山、人与自然和谐共生、生态保护与经济发展协同、推动绿色发展，让绿色成为高质量发展的鲜明底色。
 
-**第一至五幕Scene01—Scene20已完成视觉Demo并上传本开发分支，共250秒；第六幕4镜待制作。** 代码、5段视频、9份SRT、原创环境音、60张首中末关键帧与制作报告均已收录。当前为字幕与原创环境音版本，尚未录制人物对白。Word脚本及三张原始人物模板保留；正式全片仍为300秒、六幕／24镜、1920×1080、16:9、30fps、9000帧。5秒TechnicalPreview继续仅用于初始化检查，不计入正片。
+**六幕Scene01—Scene24已完成视觉Demo并上传本开发分支，共300秒、9000帧。** 代码、6段独立视频、11份SRT、原创环境音、72张首中末关键帧与制作报告均已收录，并提供`FullFilmPreview`五分钟总预览。当前为字幕与原创环境音版本，正式旁白、人物对白、最终混音及单个300秒MP4尚待完成。Word脚本及三张原始人物模板保留；全片规格为六幕／24镜、1920×1080、16:9、30fps。5秒TechnicalPreview继续仅用于初始化检查，不计入正片。
 
 ## 项目资料
 
@@ -15,14 +15,15 @@
 - [第三幕制作报告与12张关键帧](docs/act03/README.md) · [第三幕媒体验证](docs/act03/verification.json)
 - [第四幕制作报告与12帧](docs/act04/README.md) · [第四幕媒体验证](docs/act04/verification.json)
 - [第五幕制作报告与12帧](docs/act05/README.md) · [第五幕媒体验证](docs/act05/verification.json)
-- [前五幕视频与字幕](videos/README.md) · [发布与接手说明](docs/发布与接手说明.md) · [文件校验清单](videos/manifest.json)
+- [第六幕制作报告与12帧](docs/act06/README.md) · [第六幕媒体验证及片尾定格](docs/act06/verification.json)
+- [六幕视频与字幕](videos/README.md) · [发布与接手说明](docs/发布与接手说明.md) · [文件校验清单](videos/manifest.json)
 - [主Word视频脚本](docs/视频脚本/推进生态文明建设_余村故事线视频脚本.docx) · [创作源码与分镜数据](docs/视频脚本/源码/README.md) · [来源哈希](docs/视频脚本/来源记录.json)
 - [人物设定与视觉规范](docs/人物设定与视觉规范.md) · [人物素材清单、来源及校验](red-paper-reborn/public/assets/characters/README.md)
 - [项目背景与制作规范](docs/项目背景与制作规范.md) · [史实与参考资料](docs/史实与参考资料.md)
 - [24镜分工与进度](docs/分镜与制作进度.md) · [迁移报告](docs/migration/迁移报告.md) · [清理清单](docs/migration/清理清单.md)
 - [团队接手](docs/HANDOFF.md) · [美术规范](red-paper-reborn/STYLE_GUIDE.md) · [进度](PROGRESS.md)
 
-## 前五幕视频
+## 六幕视频
 
 |幕|镜头／时长|MP4|字幕|制作说明|
 |---|---|---|---|---|
@@ -31,6 +32,7 @@
 |三：理念的转变|Scene09–12／50秒|[观看或下载](videos/act03/Act03Demo.mp4)|[本幕](videos/act03/Act03Demo.srt)／[全片时间](videos/act03/Act03Demo-global.srt)|[报告及12帧](docs/act03/README.md)|
 |四：绿水青山变成金山银山|Scene13–16／50秒|[观看或下载](videos/act04/Act04Demo.mp4)|[本幕](videos/act04/Act04Demo.srt)／[全片时间](videos/act04/Act04Demo-global.srt)|[报告及12帧](docs/act04/README.md)|
 |五：新时代的接力|Scene17–20／60秒|[观看或下载](videos/act05/Act05Demo.mp4)|[本幕](videos/act05/Act05Demo.srt)／[全片时间](videos/act05/Act05Demo-global.srt)|[报告及12帧](docs/act05/README.md)|
+|六：山河有约|Scene21–24／50秒|[观看或下载](videos/act06/Act06Demo.mp4)|[本幕](videos/act06/Act06Demo.srt)／[全片时间](videos/act06/Act06Demo-global.srt)|[报告及12帧](docs/act06/README.md)|
 
 以上均为1080p／30fps、含原文字幕和原创环境音的视觉Demo，真人录音待制作。当前发布状态和队友运行步骤见[发布与接手说明](docs/发布与接手说明.md)；各幕制作记录保留当时状态，以本页和总进度为当前依据。
 
@@ -51,7 +53,7 @@
 
 人物归档阶段保留了三张完整原图，并核对正式Word与桌面原稿一致。第一幕现已按本次允许的SVG复刻方式建立可动衍生人物：小禾及老周现实／中年版。它们保留模板识别，不是原PNG的逐像素拆层；细节精修和真人配音仍待后续审定，详见第一幕交接。
 
-第二幕继续引用这些人物、老屋与字幕组件，补充依据群像板图的三类简化村民、工作道具及治理／农家乐场景。第三幕继续复用上述内容，新增历史资料、笔记修改与持续修复场景。第四幕补充经营与农产品场景，第五幕补充拍摄计划、劳动记录、绿色出游提示和爷孙合作。全片目前20／24镜在本地完成视觉Demo，各幕交接包含动作接口、配音窗口和下一幕接镜位置。
+第二幕继续引用这些人物、老屋与字幕组件，补充依据群像板图的三类简化村民、工作道具及治理／农家乐场景。第三幕继续复用上述内容，新增历史资料、笔记修改与持续修复场景。第四幕补充经营与农产品场景，第五幕补充拍摄计划、劳动记录、绿色出游提示和爷孙合作。第六幕完成双图回望、山水长卷、主题升华及爷孙约定。全片24／24镜完成视觉Demo，各幕交接包含动作接口、配音窗口、衔接坐标和实际媒体验证。
 
 ## 旧项目与分支
 
@@ -74,13 +76,14 @@ docs/
 red-paper-reborn/
   src/shared/              # 宣纸舞台、帧缓动、字体、字幕
   src/components/          # 镜头、分层山水、独立主题条
-  src/scenes/act01–act06/   # act01–act05共二十镜已实现，act06待制作
-  src/compositions/        # Act01Demo–Act05Demo及TechnicalPreview
+  src/scenes/act01–act06/   # 六幕二十四镜均已实现
+  src/compositions/        # Act01Demo–Act06Demo、FullFilmPreview及TechnicalPreview
   src/components/act01/    # 共享皮影人物、矿山、窗桌、道具
   src/components/act02/    # 村民、工具包、纸带、溪岸与农家乐道具
   src/components/act03/    # 历史资料、笔记、推杯与分区修复
   src/components/act04/    # 今日山水、经营与农产品道具
   src/components/act05/    # 笔记计划、劳动取景、剪辑与绿色出游提示
+  src/components/act06/    # 同源双图、横向长卷、爷孙收图与片尾
   public/assets/           # 新角色、矿山/村庄/山水、竹林/河流等目录
     characters/            # xiaohe.png、laozhou.png、yucun_villagers_group.png
   scripts/                 # 导出和完整性检查
@@ -119,6 +122,9 @@ pnpm run render:act04
 pnpm run check:act05
 pnpm run keyframes:act05
 pnpm run render:act05
+pnpm run check:act06
+pnpm run keyframes:act06
+pnpm run render:act06
 pnpm run keyframes
 pnpm run render
 ```
@@ -137,4 +143,8 @@ Studio选择 `Act01Demo`：40秒／1200帧，地址通常为 `http://localhost:3
 
 参考资料以[核验清单](docs/史实与参考资料.md)中列出的国家发展改革委、国家林草局、文化和旅游部、生态环境部及央视等权威页面为准；发布年份与事件年份分别记录，不将虚构家庭故事当作史实。不引用未经核验的收入、游客或碳排放统计。
 
-五分钟整片尚未制作。前五幕发布版MP4与字幕已纳入本分支`videos/act01/`至`videos/act05/`，校验见清单；代码、原创环境音、60张首中末帧及15张额外动作图一并交付。前三幕原有成品未替换。工程仍将重新渲染输出到本地`out/`，该目录及渲染缓存继续被Git忽略。后续更新视频先核对大小，超过50MiB时检查Git LFS配额／权限或使用GitHub Releases，不提交渲染缓存。
+第六幕入口为[Act06Demo](http://localhost:3000/Act06Demo)，50秒／1500帧，全片位置250–300秒。`render:act06`、`keyframes:act06`、`check:act06`输出到`out/act06/`。四镜、同源素材、片尾文字、11段字幕、五个录音窗口和最终两秒像素定格验证见[第六幕报告](docs/act06/README.md)。
+
+选择[FullFilmPreview](http://localhost:3000/FullFilmPreview)审看六幕，严格300秒／9000帧、最后有效帧8999；已检查各幕边界和片尾。本入口直接复用六幕代码，尚未导出单个五分钟MP4，正式录音、校时和统一混音后再做最终导出。localhost入口须先在本机启动Studio。
+
+六幕独立MP4与字幕已纳入本分支`videos/act01/`至`videos/act06/`，校验见清单；代码、原创环境音、72张首中末帧及额外动作图一并交付。前五幕原有源码和成品未替换。工程重新渲染仍输出到本地`out/`，该目录及渲染缓存继续被Git忽略。后续更新视频先核对大小，超过50MiB时检查Git LFS配额／权限或使用GitHub Releases，不提交渲染缓存。

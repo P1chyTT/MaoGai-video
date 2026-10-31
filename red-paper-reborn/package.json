@@ -48,6 +48,9 @@
     "build": "remotion bundle",
     "render:act05": "node scripts/render-act05.mjs video",
     "keyframes:act05": "node scripts/render-act05.mjs frames",
-    "check:act05": "node scripts/verify-act05.mjs --write-srt"
+    "check:act05": "node scripts/verify-act05.mjs --write-srt",
+    "render:act06": "node scripts/render-act06.mjs video",
+    "keyframes:act06": "node scripts/render-act06.mjs frames",
+    "check:act06": "node scripts/verify-act06.mjs --write-srt"
   }
 }

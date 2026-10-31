@@ -1,10 +1,10 @@
 {
   "project": "山河有约",
-  "version": "Acts 01–05 visual demos",
+  "version": "Acts 01–06 visual demos",
   "branch": "project/shanhe-youyue",
-  "total_seconds": 250,
-  "total_frames": 7500,
-  "completed_scenes": 20,
+  "total_seconds": 300,
+  "total_frames": 9000,
+  "completed_scenes": 24,
   "planned_scenes": 24,
   "recorded_voices": false,
   "artifacts": [
@@ -152,6 +152,42 @@
           "sha256": "4390ceac8ca5e67a22a39cd9ca55f440c11feea5fb2eda8221440b73209ccf4f"
         }
       ]
+    },
+    {
+      "act": "act06",
+      "title": "山河有约",
+      "scenes": "Scene21–Scene24",
+      "duration_seconds": 50,
+      "frames": 1500,
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "codec": "h264",
+      "audio": "AAC stereo original non-vocal ambience",
+      "verification": "docs/act06/verification.json",
+      "files": [
+        {
+          "file": "videos/act06/Act06Demo.mp4",
+          "bytes": 7586748,
+          "sha256": "80547f78f3f1de139d7f7f29a6fd1669e5a97b63b46c394210e10852491e8ad3"
+        },
+        {
+          "file": "videos/act06/Act06Demo.srt",
+          "bytes": 735,
+          "sha256": "f7b6167fd87e53baae0459816403e5bbfb9623885375a24d50777f7e5cb5001d"
+        },
+        {
+          "file": "videos/act06/Act06Demo-global.srt",
+          "bytes": 735,
+          "sha256": "01eebf7750c0cfbc2802b4c4240ea5ce52b5288abc4aefdc1f91a190c693c57d"
+        }
+      ]
     }
-  ]
+  ],
+  "full_film_preview": {
+    "composition": "FullFilmPreview",
+    "duration_seconds": 300,
+    "frames": 9000,
+    "single_300_second_mp4_exported": false
+  }
 }
