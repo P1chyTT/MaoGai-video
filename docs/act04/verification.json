@@ -1,0 +1,105 @@
+{
+  "project": "山河有约",
+  "composition": "Act04Demo",
+  "scope": "Scene13–Scene16 only; local 0–50s / global 140–190s; no recorded voices",
+  "media": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1920,
+        "height": 1080,
+        "pix_fmt": "yuv420p",
+        "color_range": "tv",
+        "color_space": "bt709",
+        "r_frame_rate": "30/1",
+        "duration": "50.000000",
+        "nb_read_frames": "1500"
+      },
+      {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2,
+        "r_frame_rate": "0/0",
+        "duration": "50.005000",
+        "nb_read_frames": "2344"
+      }
+    ],
+    "format": {
+      "duration": "50.005000",
+      "size": "10199480"
+    }
+  },
+  "sha256": "1244640d9fcb9c5f694dd29dd8b43919a560fd40a91f2fd068656987a99f345e",
+  "size_mib": 9.73,
+  "complete_video_and_audio_decode_passed": true,
+  "frame_scan": {
+    "frames": 1500,
+    "analysis_resolution": [
+      160,
+      90
+    ],
+    "black_threshold": "99% pixels below 16",
+    "white_threshold": "99% pixels above 248",
+    "black_frames": [],
+    "white_frames": [],
+    "mean_luma_range": [
+      106.79,
+      216.48
+    ]
+  },
+  "audio_peak_dbfs": -23.44,
+  "audio_rms_dbfs": -47.29,
+  "keyframe_indices": [
+    0,
+    180,
+    359,
+    360,
+    555,
+    749,
+    750,
+    930,
+    1109,
+    1110,
+    1305,
+    1499
+  ],
+  "keyframe_count": 12,
+  "global_frame_indices": [
+    4200,
+    4380,
+    4559,
+    4560,
+    4755,
+    4949,
+    4950,
+    5130,
+    5309,
+    5310,
+    5505,
+    5699
+  ],
+  "script_checks": "12 caption segments match source text and voice windows; canonical PNGs unchanged",
+  "preview": "Studio Act04Demo playback verified; no error overlay",
+  "previous_acts_preservation_files_verified": 123,
+  "scene12_to_scene13_pixel_comparison": {
+    "same_source_components_and_geometry": true,
+    "mean_rgb_difference_0_255": 0.07692,
+    "maximum_channel_difference_0_255": 24,
+    "fraction_pixels_differing_by_more_than_8": 6.75e-06
+  },
+  "handoffs": {
+    "Scene12_to_Scene13": "Reuses Restoration and SeasonTab at time=389/30; exact ridge, creek, people and stage geometry at the boundary.",
+    "Scene13_to_Scene14": "Shared DoorPanel expands from the phone view and begins opening in the next scene.",
+    "Scene14_to_Scene15": "Shared circular Platter ends at (960,550), radius 270; basket weave and products replace its contents.",
+    "Scene15_to_Scene16": "Same paper-bag leaf emblem enlarges to scale 40, then contracts into the ecology vignette.",
+    "Scene16_to_Scene17": "Cycle path contracts into the phone route sketch at (960,650), scale 1.8; Scene17 not implemented."
+  },
+  "honor_card": "Fully open from local 5s until 13s; three lines, no fabricated certificate; source S5.",
+  "output": "red-paper-reborn/out/act04/Act04Demo.mp4"
+}

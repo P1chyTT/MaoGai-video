@@ -15,9 +15,103 @@ import { Scene09 } from "./scenes/act03/Scene09";
 import { Scene10 } from "./scenes/act03/Scene10";
 import { Scene11 } from "./scenes/act03/Scene11";
 import { Scene12 } from "./scenes/act03/Scene12";
+import { Act04Demo } from "./compositions/Act04Demo";
+import { Scene13 } from "./scenes/act04/Scene13";
+import { Scene14 } from "./scenes/act04/Scene14";
+import { Scene15 } from "./scenes/act04/Scene15";
+import { Scene16 } from "./scenes/act04/Scene16";
+import { Scene17 } from "./scenes/act05/Scene17";
+import { Scene18 } from "./scenes/act05/Scene18";
+import { Scene19 } from "./scenes/act05/Scene19";
+import { Scene20 } from "./scenes/act05/Scene20";
+import { Act05Demo } from "./compositions/Act05Demo";
 import "./style.css";
 export const RemotionRoot = () => (
   <>
+    <Composition
+      id="Act05Demo"
+      component={Act05Demo}
+      durationInFrames={1800}
+      fps={30}
+      width={1920}
+      height={1080}
+    />
+    <Folder name="Act05-Scenes">
+      <Composition
+        id="Scene17"
+        component={Scene17}
+        durationInFrames={450}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="Scene18"
+        component={Scene18}
+        durationInFrames={450}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="Scene19"
+        component={Scene19}
+        durationInFrames={450}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="Scene20"
+        component={Scene20}
+        durationInFrames={450}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+    </Folder>
+    <Composition
+      id="Act04Demo"
+      component={Act04Demo}
+      durationInFrames={1500}
+      fps={30}
+      width={1920}
+      height={1080}
+    />
+    <Folder name="Act04-Scenes">
+      <Composition
+        id="Scene13"
+        component={Scene13}
+        durationInFrames={360}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="Scene14"
+        component={Scene14}
+        durationInFrames={390}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="Scene15"
+        component={Scene15}
+        durationInFrames={360}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="Scene16"
+        component={Scene16}
+        durationInFrames={390}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+    </Folder>
     <Composition
       id="Act03Demo"
       component={Act03Demo}

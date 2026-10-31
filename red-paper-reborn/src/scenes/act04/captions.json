@@ -1,0 +1,94 @@
+{
+  "Scene13": [
+    {
+      "text": "如今能开窗、能看山。",
+      "startMs": 600,
+      "endMs": 4000,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "留住这些好风景，",
+      "startMs": 4000,
+      "endMs": 7200,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "生活才有长久的底气。",
+      "startMs": 7200,
+      "endMs": 11400,
+      "timestampMs": null,
+      "confidence": null
+    }
+  ],
+  "Scene14": [
+    {
+      "text": "山水留住游客，",
+      "startMs": 600,
+      "endMs": 3800,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "农家乐和民宿接起新的生意。",
+      "startMs": 3800,
+      "endMs": 8200,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "村民的忙碌，也换了模样。",
+      "startMs": 8200,
+      "endMs": 12300,
+      "timestampMs": null,
+      "confidence": null
+    }
+  ],
+  "Scene15": [
+    {
+      "text": "旅游还带动笋干、",
+      "startMs": 500,
+      "endMs": 3300,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "茶叶和稻米等农产品销售，",
+      "startMs": 3300,
+      "endMs": 6600,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "让田间的收获接上新的需求。",
+      "startMs": 6600,
+      "endMs": 11400,
+      "timestampMs": null,
+      "confidence": null
+    }
+  ],
+  "Scene16": [
+    {
+      "text": "原来，好生态要靠人守护；",
+      "startMs": 400,
+      "endMs": 4700,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "产业要用心经营，",
+      "startMs": 4700,
+      "endMs": 8500,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "大家才能一起受益。",
+      "startMs": 8500,
+      "endMs": 12400,
+      "timestampMs": null,
+      "confidence": null
+    }
+  ]
+}

@@ -1,10 +1,10 @@
 {
   "project": "山河有约",
-  "version": "Acts 01–03 visual demos",
+  "version": "Acts 01–05 visual demos",
   "branch": "project/shanhe-youyue",
-  "total_seconds": 140,
-  "total_frames": 4200,
-  "completed_scenes": 12,
+  "total_seconds": 250,
+  "total_frames": 7500,
+  "completed_scenes": 20,
   "planned_scenes": 24,
   "recorded_voices": false,
   "artifacts": [
@@ -90,6 +90,66 @@
           "file": "videos/act03/Act03Demo.srt",
           "bytes": 829,
           "sha256": "81d00be51127c7e95af3154b00d07d2f1841c480acf0bf7352f21900e27f38f7"
+        }
+      ]
+    },
+    {
+      "act": "act04",
+      "title": "绿水青山变成金山银山",
+      "scenes": "Scene13–Scene16",
+      "duration_seconds": 50,
+      "frames": 1500,
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "codec": "h264",
+      "audio": "AAC stereo original non-vocal ambience",
+      "verification": "docs/act04/verification.json",
+      "files": [
+        {
+          "file": "videos/act04/Act04Demo.mp4",
+          "bytes": 10199480,
+          "sha256": "1244640d9fcb9c5f694dd29dd8b43919a560fd40a91f2fd068656987a99f345e"
+        },
+        {
+          "file": "videos/act04/Act04Demo.srt",
+          "bytes": 776,
+          "sha256": "85d8b14c0a7106c0d17a281f58c2443df673798c0d3256f2844a563cca8d5536"
+        },
+        {
+          "file": "videos/act04/Act04Demo-global.srt",
+          "bytes": 776,
+          "sha256": "220894b01afecb5df0eea2100aafe7ab5dcbde203772cb084785c4470aa97839"
+        }
+      ]
+    },
+    {
+      "act": "act05",
+      "title": "新时代的接力",
+      "scenes": "Scene17–Scene20",
+      "duration_seconds": 60,
+      "frames": 1800,
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "codec": "h264",
+      "audio": "AAC stereo original non-vocal ambience",
+      "verification": "docs/act05/verification.json",
+      "files": [
+        {
+          "file": "videos/act05/Act05Demo.mp4",
+          "bytes": 11650314,
+          "sha256": "ac38576942f077caa8bd0a2d6cdcd089da183ba1291fcf7b09cdc1c1a6e8caba"
+        },
+        {
+          "file": "videos/act05/Act05Demo.srt",
+          "bytes": 1009,
+          "sha256": "4102c4a0a95301dee7260d381340a2f7e0b3a1c835a0250771d9c0ad26df2eb5"
+        },
+        {
+          "file": "videos/act05/Act05Demo-global.srt",
+          "bytes": 1009,
+          "sha256": "4390ceac8ca5e67a22a39cd9ca55f440c11feea5fb2eda8221440b73209ccf4f"
         }
       ]
     }

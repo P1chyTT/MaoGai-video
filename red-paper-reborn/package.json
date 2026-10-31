@@ -38,10 +38,16 @@
     "render:act03": "node scripts/render-act03.mjs video",
     "keyframes:act03": "node scripts/render-act03.mjs frames",
     "check:act03": "node scripts/verify-act03.mjs --write-srt",
+    "render:act04": "node scripts/render-act04.mjs video",
+    "keyframes:act04": "node scripts/render-act04.mjs frames",
+    "check:act04": "node scripts/verify-act04.mjs --write-srt",
     "typecheck": "tsc --noEmit",
     "lint": "eslint src && tsc --noEmit",
     "check:project": "node scripts/verify-project.mjs",
     "check:portable": "node scripts/check-portable.mjs",
-    "build": "remotion bundle"
+    "build": "remotion bundle",
+    "render:act05": "node scripts/render-act05.mjs video",
+    "keyframes:act05": "node scripts/render-act05.mjs frames",
+    "check:act05": "node scripts/verify-act05.mjs --write-srt"
   }
 }
